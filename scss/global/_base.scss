@@ -6,12 +6,24 @@
 }
 
 
-// Typography
-body,
+// Layout
+html,
+body {
+  height: 100%;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+}
 .container {
   @include font-size(14);
   font-family: sans-serif;
+  height: 100%;
   line-height: 1.4;
+  padding: 1px;
+  position: relative;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -40,15 +52,35 @@ a {
 }
 
 
-// Layout
-.container {
-  padding: 0 1em;
+// Allow only vertical resizing of textareas.
+.editor {
+  @include appearance(none);
+  @include box-sizing(border-box);
+  border: none;
+  display: block;
+  height: 80%;
+  left: 0;
+  margin: 0;
+  padding: 0.5em;
+  overflow-y: scroll;
+  resize: none;
+  width: 100%;
+  position: absolute;
+  top: 0;
+
+  &:focus,
+  &:active {
+    outline: none;
+  }
 }
 
 
-// Allow only vertical resizing of textareas.
-textarea {
-  resize: vertical;
+// Footer
+.footer {
+  bottom: 0;
+  left: 0;
+  padding: 0.5em;
+  position: absolute;
 }
 
 

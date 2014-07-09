@@ -362,20 +362,49 @@ body,
   font-size: 14px;
   font-size: 1.4rem; }
 
+.reset-list {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .reset-list li {
+    margin: 0;
+    padding: 0; }
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
 *,
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%;
+  position: relative;
+  padding: 0;
+  margin: 0;
   overflow: auto; }
 
-body,
 .container {
   font-size: 14px;
   font-size: 1.4rem;
   font-family: sans-serif;
-  line-height: 1.4; }
+  height: 100%;
+  line-height: 1.4;
+  padding: 1px;
+  position: relative;
+  margin: 0;
+  padding: 0; }
 
 a {
   text-decoration: none; }
@@ -390,11 +419,34 @@ a {
     color: blue;
     border-bottom: 1px solid blue; }
 
-.container {
-  padding: 0 1em; }
+.editor {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+  display: block;
+  height: 80%;
+  left: 0;
+  margin: 0;
+  padding: 0.5em;
+  overflow-y: scroll;
+  resize: none;
+  width: 100%;
+  position: absolute;
+  top: 0; }
+  .editor:focus, .editor:active {
+    outline: none; }
 
-textarea {
-  resize: vertical; }
+.footer {
+  bottom: 0;
+  left: 0;
+  padding: 0.5em;
+  position: absolute; }
 
 ::-moz-selection {
   background: #b3d4fc;

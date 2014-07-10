@@ -68,5 +68,5 @@ define(["detection"], function( detection ) {
     mods.push("components/example");
   }
 
-  // require(mods);
+  require(mods);
 });

@@ -4,7 +4,7 @@ define([
   "backbone",
   "ace/ace",
   "./storage"
-], function( Backbone, ace ) {
+], function( Backbone, ace, Storage ) {
   "use strict";
 
 
@@ -14,6 +14,9 @@ define([
 
     // startup
     initialize: function() {
+      // build model
+      this.model = new Storage();
+
       // build the editor session
       this.buildSession();
 
@@ -27,7 +30,7 @@ define([
 
     // Build the Editor Session
     buildSession: function() {
-      this.session = ace.createEditSession("# This is a test"); // passed value of editor
+      this.session = ace.createEditSession( this.model.get("document") ); // passed value of editor
       this.session.setMode("ace/mode/markdown");
       this.session.setTabSize(2);
       this.session.setUseSoftTabs(true);

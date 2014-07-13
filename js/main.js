@@ -5,7 +5,8 @@ require.config({
     "chai": "lib/chai",
     "d3": "lib/d3",
     "jquery": "lib/jquery",
-    "underscore": "lib/underscore"
+    "underscore": "lib/underscore",
+    "localstorage": "lib/backbone.localStorage"
   },
   map: {
     "*": {

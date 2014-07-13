@@ -2,7 +2,8 @@
 
 define([
   "backbone",
-  "ace/ace"
+  "ace/ace",
+  "./storage"
 ], function( Backbone, ace ) {
   "use strict";
 
@@ -26,10 +27,11 @@ define([
 
     // Build the Editor Session
     buildSession: function() {
-      this.session = ace.createEditSession("# This is a test");
+      this.session = ace.createEditSession("# This is a test"); // passed value of editor
       this.session.setMode("ace/mode/markdown");
       this.session.setTabSize(2);
       this.session.setUseSoftTabs(true);
+      this.session.setUseWrapMode(true);
     },
 
 

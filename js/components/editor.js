@@ -2,9 +2,10 @@
 
 define([
   "backbone",
+  "underscore",
   "ace/ace",
   "./storage"
-], function( Backbone, ace, Storage ) {
+], function( Backbone, _, ace, Storage ) {
   "use strict";
 
 
@@ -17,32 +18,42 @@ define([
       // build model
       this.model = new Storage();
 
+      // debounce saveDocument function
+      this.saveDocument = _.debounce(this.saveDocument, 1000);
+
       // build the editor session
       this.buildSession();
 
       // build the editor
       this.buildEditor();
 
-      // focuson the editor
+      // set focus on the editor
       this.editor.focus();
     },
 
 
-    // Build the Editor Session
+    // build the session
     buildSession: function() {
       this.session = ace.createEditSession( this.model.get("document") ); // passed value of editor
       this.session.setMode("ace/mode/markdown");
       this.session.setTabSize(2);
       this.session.setUseSoftTabs(true);
       this.session.setUseWrapMode(true);
+
+      // change event
+      this.session.on("change", this.saveDocument);
     },
 
 
-    // Build the Editor
+    // build the editor
     buildEditor: function() {
       this.editor = ace.edit( this.el );
       this.editor.setTheme("ace/theme/twilight");
       this.editor.setSession( this.session );
+    },
+
+    saveDocument: function() {
+      console.log("save document");
     }
 
 

@@ -9,7 +9,7 @@ define([
   var Storage = Backbone.Model.extend({
 
     defaults: {
-      document: "# This is a test."
+      document: ""
     },
 
     initialize: function() {

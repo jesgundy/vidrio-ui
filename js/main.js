@@ -1,35 +1,35 @@
 // RequireJS Setup
 require.config({
   paths: {
-    "backbone": "lib/backbone",
-    "chai": "lib/chai",
-    "d3": "lib/d3",
-    "jquery": "lib/jquery",
-    "underscore": "lib/underscore",
-    "localstorage": "lib/backbone.localStorage"
+    'backbone': 'lib/backbone',
+    'chai': 'lib/chai',
+    'd3': 'lib/d3',
+    'jquery': 'lib/jquery',
+    'underscore': 'lib/underscore',
+    'localstorage': 'lib/backbone.localStorage'
   },
   map: {
-    "*": {
-      "backbone": "private/backbone",
-      "jquery": "private/jquery",
-      "underscore": "private/underscore"
+    '*': {
+      'backbone': 'private/backbone',
+      'jquery': 'private/jquery',
+      'underscore': 'private/underscore'
     },
-    "private/backbone": { "backbone": "backbone" },
-    "private/jquery": { "jquery": "jquery" },
-    "private/underscore": { "underscore": "underscore" }
+    'private/backbone': { 'backbone': 'backbone' },
+    'private/jquery': { 'jquery': 'jquery' },
+    'private/underscore': { 'underscore': 'underscore' }
   },
-  urlArgs: window.REQUIRE_NOCACHE ? "bust="+(new Date()).getTime() : null
+  urlArgs: window.REQUIRE_NOCACHE ? 'bust='+(new Date()).getTime() : null
 });
 
 
 // Vanilla JS tests for detecting HTML elements
-define("detection", function() {
+define('detection', function() {
   if (!document.querySelectorAll) {
     var d=document, s=d.createStyleSheet();
     d.querySelectorAll = function(r, c, i, j, a) {
-      a=d.all, c=[], r = r.replace(/\[for\b/gi, "[htmlFor").split(",");
+      a=d.all, c=[], r = r.replace(/\[for\b/gi, '[htmlFor').split(',');
       for (i=r.length; i--;) {
-        s.addRule(r[i], "k:v");
+        s.addRule(r[i], 'k:v');
         for (j=a.length; j--;) a[j].currentStyle.k && c.push(a[j]);
         s.removeRule(0);
       }
@@ -37,7 +37,7 @@ define("detection", function() {
     };
   }
   return {
-    // "has()" api: tests for basic CSS selector queries.
+    // 'has()' api: tests for basic CSS selector queries.
     find: function( selector ) {
       return document.querySelectorAll(selector);
     },
@@ -49,24 +49,29 @@ define("detection", function() {
 
 
 // Privatized Libraries
-define("private/jquery", ["jquery"], function($) {
+define('private/jquery', ['jquery'], function($) {
   return $.noConflict( true );
 });
-define("private/underscore", ["underscore"], function(_) {
+define('private/underscore', ['underscore'], function(_) {
   return _.noConflict();
 });
-define("private/backbone", ["backbone"], function(Backbone) {
+define('private/backbone', ['backbone'], function(Backbone) {
   return Backbone.noConflict();
 });
 
 
 // Main application bootstrapper
-define(["detection"], function( detection ) {
+define(['detection'], function( detection ) {
   var mods = [];
 
   // Editor
-  if ( detection.has("#editor") ) {
-    mods.push("components/editor");
+  if ( detection.has('#editor') ) {
+    mods.push('components/editor');
+  }
+
+  // Editor
+  if ( detection.has('.information-panel') && detection.has('.information-button') ) {
+    mods.push('components/information');
   }
 
   require(mods);

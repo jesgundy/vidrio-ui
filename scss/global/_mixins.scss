@@ -1,17 +1,3 @@
-// Colors
-$colors: (
-  punch: #DC3522,
-  pavlova: #D9CB9E,
-  cape-cod: #374140,
-  shark: #1E1E20,
-);
-
-
-
-
-
-
-
 // Media Query Mixins (http://jakearchibald.github.io/sass-ie/)
 $fix-mqs: false !default;
 @mixin mq-min($width) {

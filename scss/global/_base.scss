@@ -5,33 +5,16 @@
   @include box-sizing(border-box);
 }
 
-
-// Layout
-html,
+// Global Styles
 body {
-  height: 100%;
-  position: relative;
-  padding: 0;
-  margin: 0;
-  overflow: auto;
+  @include font-size(14);
+  background: map-get($colors, background);
+  color: map-get($colors, color);
+  font-family: $monospace;
+  line-height: golden-ratio(1, 1);
 }
 .container {
-  @include font-size(16);
-  height: 100%;
-  line-height: golden-ratio(1, 1);
-  padding: 1px;
-  position: relative;
-  margin: 0;
-  padding: 0;
-}
-
-
-// Color
-body {
-  background: map-get($colors, shark);
-  color: map-get($colors, pavlova);
-
-  font-family: monospace;
+  @include font-size(14);
 }
 
 
@@ -40,22 +23,22 @@ a {
   text-decoration: none;
 
   &:link {
-    color: blue;
+    color: map-get($colors, link);
   }
 
   &:visited {
-    color: lighten(blue, 10%);
+    color: lighten(map-get($colors, link), 10%);
   }
 
   &:focus,
   &:hover {
-    color: darken(blue, 10%);
-    border-bottom: 1px solid darken(blue, 10%);
+    color: darken(map-get($colors, link), 10%);
+    border-bottom: 1px solid darken(map-get($colors, link), 10%);
   }
 
   &:active {
-    color: blue;
-    border-bottom: 1px solid blue;
+    color: map-get($colors, link);
+    border-bottom: 1px solid map-get($colors, link);
   }
 }
 

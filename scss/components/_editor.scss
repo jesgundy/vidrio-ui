@@ -1,15 +1,14 @@
-// Fullcreen Jot Editor
-body {
-  background: #000;
-}
+// Jot Editor
 
+// Fullcreen Layout
 #editor {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 4em;
   bottom: 0;
   left: 0;
 }
+
 
 // override Ace font stack
 .ace_editor {

@@ -65,7 +65,9 @@ define(["detection"], function( detection ) {
   var mods = [];
 
   // Editor
-  mods.push("components/editor");
+  if ( detection.has("#editor") ) {
+    mods.push("components/editor");
+  }
 
   require(mods);
 });

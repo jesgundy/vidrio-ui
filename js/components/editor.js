@@ -58,7 +58,7 @@ define([
     buildEditor: function() {
       this.editor = ace.edit( this.el );
       this.editor.setTheme("ace/theme/twilight");
-      this.editor.setFontSize(13);
+      this.editor.setFontSize(14);
       this.editor.setSession( this.session );
     },
 

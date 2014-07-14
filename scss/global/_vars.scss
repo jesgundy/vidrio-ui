@@ -1,0 +1,10 @@
+// Colors
+$colors: (
+  background: #232323,
+  color: #E2E2E2,
+  link: #a84b37,
+);
+
+
+// Font stacks
+$monospace: "Source Code Pro", 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace !important; // !important included to override Ace editor styles

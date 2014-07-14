@@ -1971,7 +1971,7 @@ a {
 #editor {
   position: absolute;
   top: 0;
-  right: 4em;
+  right: 3em;
   bottom: 0;
   left: 0; }
 
@@ -1980,3 +1980,34 @@ a {
 
 .information {
   display: none; }
+
+.toolbox {
+  padding: 0.5em 0;
+  position: absolute;
+  right: 0;
+  top: 0; }
+  .toolbox ul {
+    font-size: 20px;
+    font-size: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .toolbox ul li {
+      margin: 0;
+      padding: 0; }
+    .toolbox ul li {
+      display: block;
+      padding: 0 0.35em; }
+  .toolbox span {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px; }
+  .toolbox a:hover,
+  .toolbox a:focus,
+  .toolbox a:active {
+    border: none; }

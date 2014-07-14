@@ -1,2 +1,29 @@
 // Toolbox
 
+.toolbox {
+  padding: 0.5em 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  ul {
+    @include font-size(20);
+    @include reset-list;
+
+    li {
+      display: block;
+      padding: 0 0.35em;
+    }
+  }
+
+  // Hide helper text
+  span {
+    @include visuallyhidden;
+  }
+
+  a:hover,
+  a:focus,
+  a:active {
+    border: none;
+  }
+}

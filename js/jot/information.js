@@ -7,14 +7,16 @@ define([
 ], function( Backbone ) {
   "use strict";
 
-
   // Backbone Model
   var Information = Backbone.View.extend({
 
+
+    // save variables
     initialize: function() {
       this.$button = this.$('.information-button');
       this.$panel = this.$('.information-panel');
     },
+
 
     // Toggle panel logic
     togglePanel: function(evt) {
@@ -30,14 +32,16 @@ define([
       evt.preventDefault();
     },
 
+
+    // events hash
     events: {
       "click .information-button": "togglePanel"
     }
-  });
 
+
+  });
 
   // instnatiate
   var information = new Information({el: ".container"});
-
 
 });

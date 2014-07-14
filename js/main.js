@@ -66,12 +66,12 @@ define(['detection'], function( detection ) {
 
   // Editor
   if ( detection.has('#editor') ) {
-    mods.push('components/editor');
+    mods.push('jot/editor');
   }
 
   // Editor
   if ( detection.has('.information-panel') && detection.has('.information-button') ) {
-    mods.push('components/information');
+    mods.push('jot/information');
   }
 
   require(mods);

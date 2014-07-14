@@ -44,6 +44,9 @@ define([
       this.session.setUseSoftTabs(true);
       this.session.setUseWrapMode(true);
 
+      // move cursor to end of file
+      this.session.selection.moveCursorFileEnd();
+
       // change event
       this.session.on("change", function() {
         self.saveDocument();

@@ -1,29 +1,40 @@
 // Toolbox
 
 .toolbox {
-  padding: 0.5em 0;
   position: absolute;
   right: 0;
   top: 0;
+  width: 3em;
 
   ul {
-    @include font-size(20);
+    @include font-size(24);
     @include reset-list;
+    width: 100%;
 
     li {
       display: block;
-      padding: 0 0.35em;
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  a {
+    display: block;
+    line-height: 1;
+    padding: 0.35em 0.25em 0.25em;
+
+    &.active,
+    &:hover,
+    &:focus,
+    &:active {
+      background: map-get($colors, link);
+      border: none;
+      color: map-get($colors, background);
     }
   }
 
   // Hide helper text
   span {
     @include visuallyhidden;
-  }
-
-  a:hover,
-  a:focus,
-  a:active {
-    border: none;
   }
 }

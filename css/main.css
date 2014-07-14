@@ -1960,6 +1960,16 @@ a {
     color: #a84b37;
     border-bottom: 1px solid #a84b37; }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: normal; }
+
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none; }
@@ -1979,25 +1989,47 @@ a {
   font-family: "Source Code Pro", 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace !important; }
 
 .information {
-  display: none; }
+  -webkit-transition: bottom 0.25s ease;
+  -moz-transition: bottom 0.25s ease;
+  transition: bottom 0.25s ease;
+  background: #232323;
+  bottom: 0;
+  border-right: 2px solid #a84b37;
+  left: 0;
+  margin-right: 3em;
+  overflow: hidden;
+  padding: 0 1em 0 3em;
+  position: absolute;
+  top: 0;
+  z-index: 10; }
 
 .toolbox {
-  padding: 0.5em 0;
   position: absolute;
   right: 0;
-  top: 0; }
+  top: 0;
+  width: 3em; }
   .toolbox ul {
-    font-size: 20px;
-    font-size: 2rem;
+    font-size: 24px;
+    font-size: 2.4rem;
     list-style: none;
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    width: 100%; }
     .toolbox ul li {
       margin: 0;
       padding: 0; }
     .toolbox ul li {
       display: block;
-      padding: 0 0.35em; }
+      text-align: center;
+      width: 100%; }
+  .toolbox a {
+    display: block;
+    line-height: 1;
+    padding: 0.35em 0.25em 0.25em; }
+    .toolbox a.active, .toolbox a:hover, .toolbox a:focus, .toolbox a:active {
+      background: #a84b37;
+      border: none;
+      color: #232323; }
   .toolbox span {
     border: 0;
     clip: rect(0 0 0 0);
@@ -2007,7 +2039,3 @@ a {
     padding: 0;
     position: absolute;
     width: 1px; }
-  .toolbox a:hover,
-  .toolbox a:focus,
-  .toolbox a:active {
-    border: none; }

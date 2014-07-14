@@ -1,5 +1,15 @@
 // Information Panel
 
 .information {
-  display: none; // temporary
+  @include transition (bottom 0.25s ease);
+  background: map-get($colors, background);
+  bottom: 0;
+  border-right: 2px solid map-get($colors, link);
+  left: 0;
+  margin-right: 3em;
+  overflow: hidden;
+  padding: 0 1em 0 3em;
+  position: absolute;
+  top: 0;
+  z-index: 10;
 }

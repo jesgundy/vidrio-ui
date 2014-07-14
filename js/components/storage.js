@@ -1,25 +1,44 @@
-// Model for the Jot editor. Responsible for storing the content of the editor locally using the Backbone.localstorage plugin.
+// Model for the Jot editor. Responsible for storing the content of the editor in localStorage.
 
+
+// RequireJS definition
 define([
-  "backbone",
-  "localstorage"
-], function( Backbone, localstorage ) {
+  "backbone"
+], function( Backbone ) {
   "use strict";
 
+
+  // Backbone Model
   var Storage = Backbone.Model.extend({
 
+
+    // document content empty string by default
     defaults: {
       document: ""
     },
 
-    initialize: function() {
-      console.log("initialize Storage");
-    }
 
+    // when instantiated
+    initialize: function() {
+      // set contents to any
+      if (localStorage.jotStorage) {
+        this.set("document", localStorage.jotStorage);
+      }
+
+      // listen for document change
+      this.on("change:document", this.saveDocument);
+    },
+
+
+    // save document contents to local storage
+    saveDocument: function() {
+      localStorage.jotStorage = this.get("document");
+    }
   });
 
 
   // return constructor
   return Storage;
+
 
 });

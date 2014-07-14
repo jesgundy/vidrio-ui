@@ -1,5 +1,7 @@
 // View for the Jot editor. Instantiates the Ace code editor, manages the UI using backbone.
 
+
+// RequireJS definition
 define([
   "backbone",
   "underscore",
@@ -19,7 +21,7 @@ define([
       this.model = new Storage();
 
       // debounce saveDocument function
-      this.saveDocument = _.debounce(this.saveDocument, 1000);
+      this.saveDocument = _.debounce(this.saveDocument, 500);
 
       // build the editor session
       this.buildSession();
@@ -34,6 +36,8 @@ define([
 
     // build the session
     buildSession: function() {
+      var self = this;
+
       this.session = ace.createEditSession( this.model.get("document") ); // passed value of editor
       this.session.setMode("ace/mode/markdown");
       this.session.setTabSize(2);
@@ -41,7 +45,9 @@ define([
       this.session.setUseWrapMode(true);
 
       // change event
-      this.session.on("change", this.saveDocument);
+      this.session.on("change", function() {
+        self.saveDocument();
+      });
     },
 
 
@@ -52,12 +58,12 @@ define([
       this.editor.setSession( this.session );
     },
 
+
+    // save document content
     saveDocument: function() {
-      console.log("save document");
+      this.model.set("document", this.session.getValue() );
     }
-
-
-  }); // Backbone View
+  });
 
 
   // instantiate

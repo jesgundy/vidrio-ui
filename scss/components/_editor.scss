@@ -10,3 +10,8 @@ body {
   bottom: 0;
   left: 0;
 }
+
+// override Ace font stack
+.ace_editor {
+  font-family: "Source Code Pro", 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace !important;
+}

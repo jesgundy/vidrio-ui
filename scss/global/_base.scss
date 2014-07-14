@@ -43,45 +43,6 @@ a {
 }
 
 
-// Allow only vertical resizing of textareas.
-.editor {
-  @include appearance(none);
-  @include box-sizing(border-box);
-  background: transparent;
-  border: none;
-  display: block;
-  height: 80%;
-  left: 0;
-  margin: 0;
-  padding: 1em;
-  overflow-y: scroll;
-
-  resize: none;
-  width: 100%;
-  position: absolute;
-  top: 0;
-
-  &:focus,
-  &:active {
-    outline: none;
-  }
-}
-
-
-// Footer
-.footer {
-  bottom: 0;
-  left: 0;
-  padding: 1em;
-  position: absolute;
-
-  h1 {
-    @include font-size(16);
-    font-weight: normal;
-  }
-}
-
-
 // Remove text-shadow, customize the background
 ::-moz-selection {
   background: #b3d4fc;

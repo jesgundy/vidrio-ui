@@ -407,40 +407,6 @@ a {
     color: #a84b37;
     border-bottom: 1px solid #a84b37; }
 
-.editor {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  -o-appearance: none;
-  appearance: none;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  background: transparent;
-  border: none;
-  display: block;
-  height: 80%;
-  left: 0;
-  margin: 0;
-  padding: 1em;
-  overflow-y: scroll;
-  resize: none;
-  width: 100%;
-  position: absolute;
-  top: 0; }
-  .editor:focus, .editor:active {
-    outline: none; }
-
-.footer {
-  bottom: 0;
-  left: 0;
-  padding: 1em;
-  position: absolute; }
-  .footer h1 {
-    font-size: 16px;
-    font-size: 1.6rem;
-    font-weight: normal; }
-
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none; }
@@ -458,3 +424,6 @@ a {
 
 .ace_editor {
   font-family: "Source Code Pro", 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace !important; }
+
+.information {
+  display: none; }

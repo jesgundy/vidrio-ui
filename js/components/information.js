@@ -17,7 +17,7 @@ define([
     },
 
     // Toggle panel logic
-    togglePanel: function() {
+    togglePanel: function(evt) {
       if (this.$button.hasClass("active")) {
         this.$button.removeClass("active");
         this.$panel.removeClass("active");
@@ -25,6 +25,9 @@ define([
         this.$button.addClass("active");
         this.$panel.addClass("active");
       }
+
+      // prevent link action
+      evt.preventDefault();
     },
 
     events: {

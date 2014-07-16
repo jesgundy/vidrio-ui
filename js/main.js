@@ -65,13 +65,8 @@ define(['detection'], function( detection ) {
   var mods = [];
 
   // Editor
-  if ( detection.has('#editor') ) {
-    mods.push('jot/editor');
-  }
-
-  // Editor
-  if ( detection.has('.information-panel') && detection.has('.information-button') ) {
-    mods.push('jot/information');
+  if ( detection.has('.jot') ) {
+    mods.push('jot/controller');
   }
 
   require(mods);

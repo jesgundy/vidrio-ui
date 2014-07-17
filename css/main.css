@@ -354,27 +354,6 @@ td,
 th {
   padding: 0; }
 
-html {
-  font-size: 62.5%; }
-
-.reset-list {
-  list-style: none;
-  margin: 0;
-  padding: 0; }
-  .reset-list li {
-    margin: 0;
-    padding: 0; }
-
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px; }
-
 /*!
  *  Font Awesome 4.1.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -1927,6 +1906,27 @@ html {
 
 .fa-bomb:before {
   content: "\f1e2"; }
+
+html {
+  font-size: 62.5%; }
+
+.reset-list {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .reset-list li {
+    margin: 0;
+    padding: 0; }
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
 
 *,
 *:before,

@@ -49,7 +49,7 @@
 		},
 	"\/js\/ace\/ace.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/ace.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/ace-min.js",
@@ -60,7 +60,7 @@
 		},
 	"\/js\/ace\/ext-beautify.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/ext-beautify.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/ext-beautify-min.js",
@@ -71,7 +71,7 @@
 		},
 	"\/js\/ace\/ext-chromevox.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/ext-chromevox.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/ext-chromevox-min.js",
@@ -82,7 +82,7 @@
 		},
 	"\/js\/ace\/ext-elastic_tabstops_lite.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/ext-elastic_tabstops_lite.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/ext-elastic_tabstops_lite-min.js",
@@ -93,7 +93,7 @@
 		},
 	"\/js\/ace\/ext-emmet.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/ext-emmet.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/ext-emmet-min.js",
@@ -104,7 +104,7 @@
 		},
 	"\/js\/ace\/ext-error_marker.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/ext-error_marker.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/ext-error_marker-min.js",
@@ -115,7 +115,7 @@
 		},
 	"\/js\/ace\/ext-keybinding_menu.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/ext-keybinding_menu.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/ext-keybinding_menu-min.js",
@@ -126,7 +126,7 @@
 		},
 	"\/js\/ace\/ext-language_tools.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/ext-language_tools.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/ext-language_tools-min.js",
@@ -137,7 +137,7 @@
 		},
 	"\/js\/ace\/ext-linking.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/ext-linking.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/ext-linking-min.js",
@@ -148,7 +148,7 @@
 		},
 	"\/js\/ace\/ext-modelist.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/ext-modelist.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/ext-modelist-min.js",
@@ -159,7 +159,7 @@
 		},
 	"\/js\/ace\/ext-old_ie.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/ext-old_ie.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/ext-old_ie-min.js",
@@ -170,7 +170,7 @@
 		},
 	"\/js\/ace\/ext-searchbox.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/ext-searchbox.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/ext-searchbox-min.js",
@@ -181,7 +181,7 @@
 		},
 	"\/js\/ace\/ext-settings_menu.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/ext-settings_menu.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/ext-settings_menu-min.js",
@@ -192,7 +192,7 @@
 		},
 	"\/js\/ace\/ext-spellcheck.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/ext-spellcheck.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/ext-spellcheck-min.js",
@@ -203,7 +203,7 @@
 		},
 	"\/js\/ace\/ext-split.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/ext-split.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/ext-split-min.js",
@@ -214,7 +214,7 @@
 		},
 	"\/js\/ace\/ext-static_highlight.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/ext-static_highlight.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/ext-static_highlight-min.js",
@@ -225,7 +225,7 @@
 		},
 	"\/js\/ace\/ext-statusbar.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/ext-statusbar.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/ext-statusbar-min.js",
@@ -236,7 +236,7 @@
 		},
 	"\/js\/ace\/ext-textarea.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/ext-textarea.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/ext-textarea-min.js",
@@ -247,7 +247,7 @@
 		},
 	"\/js\/ace\/ext-themelist.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/ext-themelist.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/ext-themelist-min.js",
@@ -258,7 +258,7 @@
 		},
 	"\/js\/ace\/ext-whitespace.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/ext-whitespace.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/ext-whitespace-min.js",
@@ -269,7 +269,7 @@
 		},
 	"\/js\/ace\/keybinding-emacs.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/keybinding-emacs.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/keybinding-emacs-min.js",
@@ -280,7 +280,7 @@
 		},
 	"\/js\/ace\/keybinding-vim.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/keybinding-vim.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/keybinding-vim-min.js",
@@ -291,7 +291,7 @@
 		},
 	"\/js\/ace\/mode-abap.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-abap.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-abap-min.js",
@@ -302,7 +302,7 @@
 		},
 	"\/js\/ace\/mode-actionscript.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-actionscript.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-actionscript-min.js",
@@ -313,7 +313,7 @@
 		},
 	"\/js\/ace\/mode-ada.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-ada.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-ada-min.js",
@@ -324,7 +324,7 @@
 		},
 	"\/js\/ace\/mode-apache_conf.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-apache_conf.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-apache_conf-min.js",
@@ -335,7 +335,7 @@
 		},
 	"\/js\/ace\/mode-applescript.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-applescript.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-applescript-min.js",
@@ -346,7 +346,7 @@
 		},
 	"\/js\/ace\/mode-asciidoc.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-asciidoc.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-asciidoc-min.js",
@@ -357,7 +357,7 @@
 		},
 	"\/js\/ace\/mode-assembly_x86.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-assembly_x86.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-assembly_x86-min.js",
@@ -368,7 +368,7 @@
 		},
 	"\/js\/ace\/mode-autohotkey.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-autohotkey.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-autohotkey-min.js",
@@ -379,7 +379,7 @@
 		},
 	"\/js\/ace\/mode-batchfile.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-batchfile.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-batchfile-min.js",
@@ -390,7 +390,7 @@
 		},
 	"\/js\/ace\/mode-c9search.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-c9search.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-c9search-min.js",
@@ -401,7 +401,7 @@
 		},
 	"\/js\/ace\/mode-c_cpp.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-c_cpp.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-c_cpp-min.js",
@@ -412,7 +412,7 @@
 		},
 	"\/js\/ace\/mode-cirru.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-cirru.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-cirru-min.js",
@@ -423,7 +423,7 @@
 		},
 	"\/js\/ace\/mode-clojure.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-clojure.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-clojure-min.js",
@@ -434,7 +434,7 @@
 		},
 	"\/js\/ace\/mode-cobol.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-cobol.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-cobol-min.js",
@@ -445,7 +445,7 @@
 		},
 	"\/js\/ace\/mode-coffee.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-coffee.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-coffee-min.js",
@@ -456,7 +456,7 @@
 		},
 	"\/js\/ace\/mode-coldfusion.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-coldfusion.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-coldfusion-min.js",
@@ -467,7 +467,7 @@
 		},
 	"\/js\/ace\/mode-csharp.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-csharp.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-csharp-min.js",
@@ -478,7 +478,7 @@
 		},
 	"\/js\/ace\/mode-css.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-css.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-css-min.js",
@@ -489,7 +489,7 @@
 		},
 	"\/js\/ace\/mode-curly.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-curly.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-curly-min.js",
@@ -500,7 +500,7 @@
 		},
 	"\/js\/ace\/mode-d.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-d.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-d-min.js",
@@ -511,7 +511,7 @@
 		},
 	"\/js\/ace\/mode-dart.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-dart.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-dart-min.js",
@@ -522,7 +522,7 @@
 		},
 	"\/js\/ace\/mode-diff.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-diff.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-diff-min.js",
@@ -533,7 +533,7 @@
 		},
 	"\/js\/ace\/mode-django.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-django.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-django-min.js",
@@ -544,7 +544,7 @@
 		},
 	"\/js\/ace\/mode-dockerfile.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-dockerfile.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-dockerfile-min.js",
@@ -555,7 +555,7 @@
 		},
 	"\/js\/ace\/mode-dot.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-dot.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-dot-min.js",
@@ -566,7 +566,7 @@
 		},
 	"\/js\/ace\/mode-ejs.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-ejs.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-ejs-min.js",
@@ -577,7 +577,7 @@
 		},
 	"\/js\/ace\/mode-erlang.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-erlang.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-erlang-min.js",
@@ -588,7 +588,7 @@
 		},
 	"\/js\/ace\/mode-forth.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-forth.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-forth-min.js",
@@ -599,7 +599,7 @@
 		},
 	"\/js\/ace\/mode-ftl.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-ftl.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-ftl-min.js",
@@ -610,7 +610,7 @@
 		},
 	"\/js\/ace\/mode-gherkin.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-gherkin.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-gherkin-min.js",
@@ -621,7 +621,7 @@
 		},
 	"\/js\/ace\/mode-gitignore.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-gitignore.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-gitignore-min.js",
@@ -632,7 +632,7 @@
 		},
 	"\/js\/ace\/mode-glsl.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-glsl.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-glsl-min.js",
@@ -643,7 +643,7 @@
 		},
 	"\/js\/ace\/mode-golang.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-golang.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-golang-min.js",
@@ -654,7 +654,7 @@
 		},
 	"\/js\/ace\/mode-groovy.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-groovy.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-groovy-min.js",
@@ -665,7 +665,7 @@
 		},
 	"\/js\/ace\/mode-haml.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-haml.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-haml-min.js",
@@ -676,7 +676,7 @@
 		},
 	"\/js\/ace\/mode-handlebars.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-handlebars.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-handlebars-min.js",
@@ -687,7 +687,7 @@
 		},
 	"\/js\/ace\/mode-haskell.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-haskell.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-haskell-min.js",
@@ -698,7 +698,7 @@
 		},
 	"\/js\/ace\/mode-haxe.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-haxe.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-haxe-min.js",
@@ -709,7 +709,7 @@
 		},
 	"\/js\/ace\/mode-html.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-html.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-html-min.js",
@@ -720,7 +720,7 @@
 		},
 	"\/js\/ace\/mode-html_ruby.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-html_ruby.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-html_ruby-min.js",
@@ -731,7 +731,7 @@
 		},
 	"\/js\/ace\/mode-ini.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-ini.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-ini-min.js",
@@ -742,7 +742,7 @@
 		},
 	"\/js\/ace\/mode-jack.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-jack.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-jack-min.js",
@@ -753,7 +753,7 @@
 		},
 	"\/js\/ace\/mode-jade.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-jade.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-jade-min.js",
@@ -764,7 +764,7 @@
 		},
 	"\/js\/ace\/mode-java.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-java.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-java-min.js",
@@ -775,7 +775,7 @@
 		},
 	"\/js\/ace\/mode-javascript.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-javascript.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-javascript-min.js",
@@ -786,7 +786,7 @@
 		},
 	"\/js\/ace\/mode-json.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-json.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-json-min.js",
@@ -797,7 +797,7 @@
 		},
 	"\/js\/ace\/mode-jsoniq.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-jsoniq.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-jsoniq-min.js",
@@ -808,7 +808,7 @@
 		},
 	"\/js\/ace\/mode-jsp.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-jsp.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-jsp-min.js",
@@ -819,7 +819,7 @@
 		},
 	"\/js\/ace\/mode-jsx.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-jsx.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-jsx-min.js",
@@ -830,7 +830,7 @@
 		},
 	"\/js\/ace\/mode-julia.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-julia.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-julia-min.js",
@@ -841,7 +841,7 @@
 		},
 	"\/js\/ace\/mode-latex.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-latex.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-latex-min.js",
@@ -852,7 +852,7 @@
 		},
 	"\/js\/ace\/mode-less.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-less.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-less-min.js",
@@ -863,7 +863,7 @@
 		},
 	"\/js\/ace\/mode-liquid.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-liquid.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-liquid-min.js",
@@ -874,7 +874,7 @@
 		},
 	"\/js\/ace\/mode-lisp.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-lisp.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-lisp-min.js",
@@ -885,7 +885,7 @@
 		},
 	"\/js\/ace\/mode-livescript.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-livescript.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-livescript-min.js",
@@ -896,7 +896,7 @@
 		},
 	"\/js\/ace\/mode-logiql.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-logiql.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-logiql-min.js",
@@ -907,7 +907,7 @@
 		},
 	"\/js\/ace\/mode-lsl.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-lsl.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-lsl-min.js",
@@ -918,7 +918,7 @@
 		},
 	"\/js\/ace\/mode-lua.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-lua.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-lua-min.js",
@@ -929,7 +929,7 @@
 		},
 	"\/js\/ace\/mode-luapage.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-luapage.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-luapage-min.js",
@@ -940,7 +940,7 @@
 		},
 	"\/js\/ace\/mode-lucene.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-lucene.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-lucene-min.js",
@@ -951,7 +951,7 @@
 		},
 	"\/js\/ace\/mode-makefile.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-makefile.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-makefile-min.js",
@@ -962,7 +962,7 @@
 		},
 	"\/js\/ace\/mode-markdown.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-markdown.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-markdown-min.js",
@@ -973,7 +973,7 @@
 		},
 	"\/js\/ace\/mode-matlab.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-matlab.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-matlab-min.js",
@@ -984,7 +984,7 @@
 		},
 	"\/js\/ace\/mode-mel.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-mel.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-mel-min.js",
@@ -995,7 +995,7 @@
 		},
 	"\/js\/ace\/mode-mushcode.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-mushcode.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-mushcode-min.js",
@@ -1006,7 +1006,7 @@
 		},
 	"\/js\/ace\/mode-mysql.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-mysql.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-mysql-min.js",
@@ -1017,7 +1017,7 @@
 		},
 	"\/js\/ace\/mode-nix.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-nix.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-nix-min.js",
@@ -1028,7 +1028,7 @@
 		},
 	"\/js\/ace\/mode-objectivec.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-objectivec.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-objectivec-min.js",
@@ -1039,7 +1039,7 @@
 		},
 	"\/js\/ace\/mode-ocaml.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-ocaml.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-ocaml-min.js",
@@ -1050,7 +1050,7 @@
 		},
 	"\/js\/ace\/mode-pascal.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-pascal.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-pascal-min.js",
@@ -1061,7 +1061,7 @@
 		},
 	"\/js\/ace\/mode-perl.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-perl.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-perl-min.js",
@@ -1072,7 +1072,7 @@
 		},
 	"\/js\/ace\/mode-pgsql.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-pgsql.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-pgsql-min.js",
@@ -1083,7 +1083,7 @@
 		},
 	"\/js\/ace\/mode-php.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-php.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-php-min.js",
@@ -1094,7 +1094,7 @@
 		},
 	"\/js\/ace\/mode-plain_text.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-plain_text.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-plain_text-min.js",
@@ -1105,7 +1105,7 @@
 		},
 	"\/js\/ace\/mode-powershell.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-powershell.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-powershell-min.js",
@@ -1116,7 +1116,7 @@
 		},
 	"\/js\/ace\/mode-prolog.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-prolog.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-prolog-min.js",
@@ -1127,7 +1127,7 @@
 		},
 	"\/js\/ace\/mode-properties.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-properties.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-properties-min.js",
@@ -1138,7 +1138,7 @@
 		},
 	"\/js\/ace\/mode-protobuf.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-protobuf.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-protobuf-min.js",
@@ -1149,7 +1149,7 @@
 		},
 	"\/js\/ace\/mode-python.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-python.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-python-min.js",
@@ -1160,7 +1160,7 @@
 		},
 	"\/js\/ace\/mode-r.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-r.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-r-min.js",
@@ -1171,7 +1171,7 @@
 		},
 	"\/js\/ace\/mode-rdoc.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-rdoc.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-rdoc-min.js",
@@ -1182,7 +1182,7 @@
 		},
 	"\/js\/ace\/mode-rhtml.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-rhtml.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-rhtml-min.js",
@@ -1193,7 +1193,7 @@
 		},
 	"\/js\/ace\/mode-ruby.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-ruby.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-ruby-min.js",
@@ -1204,7 +1204,7 @@
 		},
 	"\/js\/ace\/mode-rust.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-rust.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-rust-min.js",
@@ -1215,7 +1215,7 @@
 		},
 	"\/js\/ace\/mode-sass.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-sass.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-sass-min.js",
@@ -1226,7 +1226,7 @@
 		},
 	"\/js\/ace\/mode-scad.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-scad.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-scad-min.js",
@@ -1237,7 +1237,7 @@
 		},
 	"\/js\/ace\/mode-scala.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-scala.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-scala-min.js",
@@ -1248,7 +1248,7 @@
 		},
 	"\/js\/ace\/mode-scheme.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-scheme.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-scheme-min.js",
@@ -1259,7 +1259,7 @@
 		},
 	"\/js\/ace\/mode-scss.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-scss.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-scss-min.js",
@@ -1270,7 +1270,7 @@
 		},
 	"\/js\/ace\/mode-sh.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-sh.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-sh-min.js",
@@ -1281,7 +1281,7 @@
 		},
 	"\/js\/ace\/mode-sjs.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-sjs.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-sjs-min.js",
@@ -1292,7 +1292,7 @@
 		},
 	"\/js\/ace\/mode-smarty.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-smarty.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-smarty-min.js",
@@ -1303,7 +1303,7 @@
 		},
 	"\/js\/ace\/mode-snippets.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-snippets.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-snippets-min.js",
@@ -1314,7 +1314,7 @@
 		},
 	"\/js\/ace\/mode-soy_template.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-soy_template.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-soy_template-min.js",
@@ -1325,7 +1325,7 @@
 		},
 	"\/js\/ace\/mode-space.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-space.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-space-min.js",
@@ -1336,7 +1336,7 @@
 		},
 	"\/js\/ace\/mode-sql.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-sql.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-sql-min.js",
@@ -1347,7 +1347,7 @@
 		},
 	"\/js\/ace\/mode-stylus.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-stylus.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-stylus-min.js",
@@ -1358,7 +1358,7 @@
 		},
 	"\/js\/ace\/mode-svg.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-svg.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-svg-min.js",
@@ -1369,7 +1369,7 @@
 		},
 	"\/js\/ace\/mode-tcl.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-tcl.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-tcl-min.js",
@@ -1380,7 +1380,7 @@
 		},
 	"\/js\/ace\/mode-tex.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-tex.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-tex-min.js",
@@ -1391,7 +1391,7 @@
 		},
 	"\/js\/ace\/mode-text.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-text.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-text-min.js",
@@ -1402,7 +1402,7 @@
 		},
 	"\/js\/ace\/mode-textile.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-textile.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-textile-min.js",
@@ -1413,7 +1413,7 @@
 		},
 	"\/js\/ace\/mode-toml.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-toml.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-toml-min.js",
@@ -1424,7 +1424,7 @@
 		},
 	"\/js\/ace\/mode-twig.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-twig.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-twig-min.js",
@@ -1435,7 +1435,7 @@
 		},
 	"\/js\/ace\/mode-typescript.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-typescript.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-typescript-min.js",
@@ -1446,7 +1446,7 @@
 		},
 	"\/js\/ace\/mode-vala.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-vala.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-vala-min.js",
@@ -1457,7 +1457,7 @@
 		},
 	"\/js\/ace\/mode-vbscript.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-vbscript.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-vbscript-min.js",
@@ -1468,7 +1468,7 @@
 		},
 	"\/js\/ace\/mode-velocity.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-velocity.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-velocity-min.js",
@@ -1479,7 +1479,7 @@
 		},
 	"\/js\/ace\/mode-verilog.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-verilog.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-verilog-min.js",
@@ -1490,7 +1490,7 @@
 		},
 	"\/js\/ace\/mode-vhdl.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-vhdl.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-vhdl-min.js",
@@ -1501,7 +1501,7 @@
 		},
 	"\/js\/ace\/mode-xml.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-xml.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-xml-min.js",
@@ -1512,7 +1512,7 @@
 		},
 	"\/js\/ace\/mode-xquery.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-xquery.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-xquery-min.js",
@@ -1523,7 +1523,7 @@
 		},
 	"\/js\/ace\/mode-yaml.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/mode-yaml.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/mode-yaml-min.js",
@@ -1534,7 +1534,7 @@
 		},
 	"\/js\/ace\/snippets\/abap.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/abap.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/abap-min.js",
@@ -1545,7 +1545,7 @@
 		},
 	"\/js\/ace\/snippets\/actionscript.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/actionscript.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/actionscript-min.js",
@@ -1556,7 +1556,7 @@
 		},
 	"\/js\/ace\/snippets\/ada.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/ada.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/ada-min.js",
@@ -1567,7 +1567,7 @@
 		},
 	"\/js\/ace\/snippets\/apache_conf.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/apache_conf.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/apache_conf-min.js",
@@ -1578,7 +1578,7 @@
 		},
 	"\/js\/ace\/snippets\/applescript.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/applescript.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/applescript-min.js",
@@ -1589,7 +1589,7 @@
 		},
 	"\/js\/ace\/snippets\/asciidoc.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/asciidoc.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/asciidoc-min.js",
@@ -1600,7 +1600,7 @@
 		},
 	"\/js\/ace\/snippets\/assembly_x86.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/assembly_x86.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/assembly_x86-min.js",
@@ -1611,7 +1611,7 @@
 		},
 	"\/js\/ace\/snippets\/autohotkey.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/autohotkey.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/autohotkey-min.js",
@@ -1622,7 +1622,7 @@
 		},
 	"\/js\/ace\/snippets\/batchfile.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/batchfile.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/batchfile-min.js",
@@ -1633,7 +1633,7 @@
 		},
 	"\/js\/ace\/snippets\/c9search.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/c9search.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/c9search-min.js",
@@ -1644,7 +1644,7 @@
 		},
 	"\/js\/ace\/snippets\/c_cpp.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/c_cpp.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/c_cpp-min.js",
@@ -1655,7 +1655,7 @@
 		},
 	"\/js\/ace\/snippets\/cirru.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/cirru.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/cirru-min.js",
@@ -1666,7 +1666,7 @@
 		},
 	"\/js\/ace\/snippets\/clojure.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/clojure.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/clojure-min.js",
@@ -1677,7 +1677,7 @@
 		},
 	"\/js\/ace\/snippets\/cobol.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/cobol.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/cobol-min.js",
@@ -1688,7 +1688,7 @@
 		},
 	"\/js\/ace\/snippets\/coffee.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/coffee.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/coffee-min.js",
@@ -1699,7 +1699,7 @@
 		},
 	"\/js\/ace\/snippets\/coldfusion.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/coldfusion.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/coldfusion-min.js",
@@ -1710,7 +1710,7 @@
 		},
 	"\/js\/ace\/snippets\/csharp.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/csharp.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/csharp-min.js",
@@ -1721,7 +1721,7 @@
 		},
 	"\/js\/ace\/snippets\/css.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/css.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/css-min.js",
@@ -1732,7 +1732,7 @@
 		},
 	"\/js\/ace\/snippets\/curly.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/curly.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/curly-min.js",
@@ -1743,7 +1743,7 @@
 		},
 	"\/js\/ace\/snippets\/d.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/d.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/d-min.js",
@@ -1754,7 +1754,7 @@
 		},
 	"\/js\/ace\/snippets\/dart.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/dart.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/dart-min.js",
@@ -1765,7 +1765,7 @@
 		},
 	"\/js\/ace\/snippets\/diff.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/diff.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/diff-min.js",
@@ -1776,7 +1776,7 @@
 		},
 	"\/js\/ace\/snippets\/django.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/django.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/django-min.js",
@@ -1787,7 +1787,7 @@
 		},
 	"\/js\/ace\/snippets\/dockerfile.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/dockerfile.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/dockerfile-min.js",
@@ -1798,7 +1798,7 @@
 		},
 	"\/js\/ace\/snippets\/dot.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/dot.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/dot-min.js",
@@ -1809,7 +1809,7 @@
 		},
 	"\/js\/ace\/snippets\/ejs.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/ejs.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/ejs-min.js",
@@ -1820,7 +1820,7 @@
 		},
 	"\/js\/ace\/snippets\/erlang.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/erlang.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/erlang-min.js",
@@ -1831,7 +1831,7 @@
 		},
 	"\/js\/ace\/snippets\/forth.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/forth.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/forth-min.js",
@@ -1842,7 +1842,7 @@
 		},
 	"\/js\/ace\/snippets\/ftl.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/ftl.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/ftl-min.js",
@@ -1853,7 +1853,7 @@
 		},
 	"\/js\/ace\/snippets\/gherkin.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/gherkin.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/gherkin-min.js",
@@ -1864,7 +1864,7 @@
 		},
 	"\/js\/ace\/snippets\/gitignore.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/gitignore.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/gitignore-min.js",
@@ -1875,7 +1875,7 @@
 		},
 	"\/js\/ace\/snippets\/glsl.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/glsl.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/glsl-min.js",
@@ -1886,7 +1886,7 @@
 		},
 	"\/js\/ace\/snippets\/golang.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/golang.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/golang-min.js",
@@ -1897,7 +1897,7 @@
 		},
 	"\/js\/ace\/snippets\/groovy.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/groovy.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/groovy-min.js",
@@ -1908,7 +1908,7 @@
 		},
 	"\/js\/ace\/snippets\/haml.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/haml.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/haml-min.js",
@@ -1919,7 +1919,7 @@
 		},
 	"\/js\/ace\/snippets\/handlebars.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/handlebars.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/handlebars-min.js",
@@ -1930,7 +1930,7 @@
 		},
 	"\/js\/ace\/snippets\/haskell.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/haskell.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/haskell-min.js",
@@ -1941,7 +1941,7 @@
 		},
 	"\/js\/ace\/snippets\/haxe.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/haxe.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/haxe-min.js",
@@ -1952,7 +1952,7 @@
 		},
 	"\/js\/ace\/snippets\/html.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/html.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/html-min.js",
@@ -1963,7 +1963,7 @@
 		},
 	"\/js\/ace\/snippets\/html_ruby.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/html_ruby.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/html_ruby-min.js",
@@ -1974,7 +1974,7 @@
 		},
 	"\/js\/ace\/snippets\/ini.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/ini.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/ini-min.js",
@@ -1985,7 +1985,7 @@
 		},
 	"\/js\/ace\/snippets\/jack.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/jack.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/jack-min.js",
@@ -1996,7 +1996,7 @@
 		},
 	"\/js\/ace\/snippets\/jade.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/jade.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/jade-min.js",
@@ -2007,7 +2007,7 @@
 		},
 	"\/js\/ace\/snippets\/java.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/java.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/java-min.js",
@@ -2018,7 +2018,7 @@
 		},
 	"\/js\/ace\/snippets\/javascript.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/javascript.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/javascript-min.js",
@@ -2029,7 +2029,7 @@
 		},
 	"\/js\/ace\/snippets\/json.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/json.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/json-min.js",
@@ -2040,7 +2040,7 @@
 		},
 	"\/js\/ace\/snippets\/jsoniq.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/jsoniq.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/jsoniq-min.js",
@@ -2051,7 +2051,7 @@
 		},
 	"\/js\/ace\/snippets\/jsp.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/jsp.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/jsp-min.js",
@@ -2062,7 +2062,7 @@
 		},
 	"\/js\/ace\/snippets\/jsx.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/jsx.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/jsx-min.js",
@@ -2073,7 +2073,7 @@
 		},
 	"\/js\/ace\/snippets\/julia.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/julia.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/julia-min.js",
@@ -2084,7 +2084,7 @@
 		},
 	"\/js\/ace\/snippets\/latex.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/latex.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/latex-min.js",
@@ -2095,7 +2095,7 @@
 		},
 	"\/js\/ace\/snippets\/less.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/less.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/less-min.js",
@@ -2106,7 +2106,7 @@
 		},
 	"\/js\/ace\/snippets\/liquid.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/liquid.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/liquid-min.js",
@@ -2117,7 +2117,7 @@
 		},
 	"\/js\/ace\/snippets\/lisp.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/lisp.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/lisp-min.js",
@@ -2128,7 +2128,7 @@
 		},
 	"\/js\/ace\/snippets\/livescript.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/livescript.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/livescript-min.js",
@@ -2139,7 +2139,7 @@
 		},
 	"\/js\/ace\/snippets\/logiql.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/logiql.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/logiql-min.js",
@@ -2150,7 +2150,7 @@
 		},
 	"\/js\/ace\/snippets\/lsl.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/lsl.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/lsl-min.js",
@@ -2161,7 +2161,7 @@
 		},
 	"\/js\/ace\/snippets\/lua.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/lua.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/lua-min.js",
@@ -2172,7 +2172,7 @@
 		},
 	"\/js\/ace\/snippets\/luapage.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/luapage.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/luapage-min.js",
@@ -2183,7 +2183,7 @@
 		},
 	"\/js\/ace\/snippets\/lucene.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/lucene.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/lucene-min.js",
@@ -2194,7 +2194,7 @@
 		},
 	"\/js\/ace\/snippets\/makefile.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/makefile.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/makefile-min.js",
@@ -2205,7 +2205,7 @@
 		},
 	"\/js\/ace\/snippets\/markdown.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/markdown.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/markdown-min.js",
@@ -2216,7 +2216,7 @@
 		},
 	"\/js\/ace\/snippets\/matlab.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/matlab.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/matlab-min.js",
@@ -2227,7 +2227,7 @@
 		},
 	"\/js\/ace\/snippets\/mel.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/mel.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/mel-min.js",
@@ -2238,7 +2238,7 @@
 		},
 	"\/js\/ace\/snippets\/mushcode.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/mushcode.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/mushcode-min.js",
@@ -2249,7 +2249,7 @@
 		},
 	"\/js\/ace\/snippets\/mysql.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/mysql.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/mysql-min.js",
@@ -2260,7 +2260,7 @@
 		},
 	"\/js\/ace\/snippets\/nix.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/nix.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/nix-min.js",
@@ -2271,7 +2271,7 @@
 		},
 	"\/js\/ace\/snippets\/objectivec.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/objectivec.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/objectivec-min.js",
@@ -2282,7 +2282,7 @@
 		},
 	"\/js\/ace\/snippets\/ocaml.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/ocaml.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/ocaml-min.js",
@@ -2293,7 +2293,7 @@
 		},
 	"\/js\/ace\/snippets\/pascal.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/pascal.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/pascal-min.js",
@@ -2304,7 +2304,7 @@
 		},
 	"\/js\/ace\/snippets\/perl.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/perl.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/perl-min.js",
@@ -2315,7 +2315,7 @@
 		},
 	"\/js\/ace\/snippets\/pgsql.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/pgsql.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/pgsql-min.js",
@@ -2326,7 +2326,7 @@
 		},
 	"\/js\/ace\/snippets\/php.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/php.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/php-min.js",
@@ -2337,7 +2337,7 @@
 		},
 	"\/js\/ace\/snippets\/plain_text.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/plain_text.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/plain_text-min.js",
@@ -2348,7 +2348,7 @@
 		},
 	"\/js\/ace\/snippets\/powershell.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/powershell.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/powershell-min.js",
@@ -2359,7 +2359,7 @@
 		},
 	"\/js\/ace\/snippets\/prolog.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/prolog.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/prolog-min.js",
@@ -2370,7 +2370,7 @@
 		},
 	"\/js\/ace\/snippets\/properties.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/properties.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/properties-min.js",
@@ -2381,7 +2381,7 @@
 		},
 	"\/js\/ace\/snippets\/protobuf.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/protobuf.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/protobuf-min.js",
@@ -2392,7 +2392,7 @@
 		},
 	"\/js\/ace\/snippets\/python.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/python.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/python-min.js",
@@ -2403,7 +2403,7 @@
 		},
 	"\/js\/ace\/snippets\/r.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/r.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/r-min.js",
@@ -2414,7 +2414,7 @@
 		},
 	"\/js\/ace\/snippets\/rdoc.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/rdoc.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/rdoc-min.js",
@@ -2425,7 +2425,7 @@
 		},
 	"\/js\/ace\/snippets\/rhtml.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/rhtml.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/rhtml-min.js",
@@ -2436,7 +2436,7 @@
 		},
 	"\/js\/ace\/snippets\/ruby.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/ruby.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/ruby-min.js",
@@ -2447,7 +2447,7 @@
 		},
 	"\/js\/ace\/snippets\/rust.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/rust.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/rust-min.js",
@@ -2458,7 +2458,7 @@
 		},
 	"\/js\/ace\/snippets\/sass.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/sass.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/sass-min.js",
@@ -2469,7 +2469,7 @@
 		},
 	"\/js\/ace\/snippets\/scad.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/scad.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/scad-min.js",
@@ -2480,7 +2480,7 @@
 		},
 	"\/js\/ace\/snippets\/scala.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/scala.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/scala-min.js",
@@ -2491,7 +2491,7 @@
 		},
 	"\/js\/ace\/snippets\/scheme.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/scheme.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/scheme-min.js",
@@ -2502,7 +2502,7 @@
 		},
 	"\/js\/ace\/snippets\/scss.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/scss.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/scss-min.js",
@@ -2513,7 +2513,7 @@
 		},
 	"\/js\/ace\/snippets\/sh.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/sh.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/sh-min.js",
@@ -2524,7 +2524,7 @@
 		},
 	"\/js\/ace\/snippets\/sjs.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/sjs.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/sjs-min.js",
@@ -2535,7 +2535,7 @@
 		},
 	"\/js\/ace\/snippets\/smarty.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/smarty.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/smarty-min.js",
@@ -2546,7 +2546,7 @@
 		},
 	"\/js\/ace\/snippets\/snippets.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/snippets.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/snippets-min.js",
@@ -2557,7 +2557,7 @@
 		},
 	"\/js\/ace\/snippets\/soy_template.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/soy_template.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/soy_template-min.js",
@@ -2568,7 +2568,7 @@
 		},
 	"\/js\/ace\/snippets\/space.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/space.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/space-min.js",
@@ -2579,7 +2579,7 @@
 		},
 	"\/js\/ace\/snippets\/sql.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/sql.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/sql-min.js",
@@ -2590,7 +2590,7 @@
 		},
 	"\/js\/ace\/snippets\/stylus.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/stylus.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/stylus-min.js",
@@ -2601,7 +2601,7 @@
 		},
 	"\/js\/ace\/snippets\/svg.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/svg.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/svg-min.js",
@@ -2612,7 +2612,7 @@
 		},
 	"\/js\/ace\/snippets\/tcl.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/tcl.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/tcl-min.js",
@@ -2623,7 +2623,7 @@
 		},
 	"\/js\/ace\/snippets\/tex.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/tex.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/tex-min.js",
@@ -2634,7 +2634,7 @@
 		},
 	"\/js\/ace\/snippets\/text.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/text.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/text-min.js",
@@ -2645,7 +2645,7 @@
 		},
 	"\/js\/ace\/snippets\/textile.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/textile.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/textile-min.js",
@@ -2656,7 +2656,7 @@
 		},
 	"\/js\/ace\/snippets\/toml.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/toml.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/toml-min.js",
@@ -2667,7 +2667,7 @@
 		},
 	"\/js\/ace\/snippets\/twig.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/twig.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/twig-min.js",
@@ -2678,7 +2678,7 @@
 		},
 	"\/js\/ace\/snippets\/typescript.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/typescript.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/typescript-min.js",
@@ -2689,7 +2689,7 @@
 		},
 	"\/js\/ace\/snippets\/vala.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/vala.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/vala-min.js",
@@ -2700,7 +2700,7 @@
 		},
 	"\/js\/ace\/snippets\/vbscript.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/vbscript.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/vbscript-min.js",
@@ -2711,7 +2711,7 @@
 		},
 	"\/js\/ace\/snippets\/velocity.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/velocity.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/velocity-min.js",
@@ -2722,7 +2722,7 @@
 		},
 	"\/js\/ace\/snippets\/verilog.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/verilog.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/verilog-min.js",
@@ -2733,7 +2733,7 @@
 		},
 	"\/js\/ace\/snippets\/vhdl.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/vhdl.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/vhdl-min.js",
@@ -2744,7 +2744,7 @@
 		},
 	"\/js\/ace\/snippets\/xml.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/xml.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/xml-min.js",
@@ -2755,7 +2755,7 @@
 		},
 	"\/js\/ace\/snippets\/xquery.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/xquery.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/xquery-min.js",
@@ -2766,7 +2766,7 @@
 		},
 	"\/js\/ace\/snippets\/yaml.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/snippets\/yaml.js",
 		"outputAbbreviatedPath": "\/js\/ace\/snippets\/min\/yaml-min.js",
@@ -2777,7 +2777,7 @@
 		},
 	"\/js\/ace\/theme-ambiance.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-ambiance.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-ambiance-min.js",
@@ -2788,7 +2788,7 @@
 		},
 	"\/js\/ace\/theme-chaos.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-chaos.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-chaos-min.js",
@@ -2799,7 +2799,7 @@
 		},
 	"\/js\/ace\/theme-chrome.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-chrome.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-chrome-min.js",
@@ -2810,7 +2810,7 @@
 		},
 	"\/js\/ace\/theme-clouds.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-clouds.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-clouds-min.js",
@@ -2821,7 +2821,7 @@
 		},
 	"\/js\/ace\/theme-clouds_midnight.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-clouds_midnight.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-clouds_midnight-min.js",
@@ -2832,7 +2832,7 @@
 		},
 	"\/js\/ace\/theme-cobalt.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-cobalt.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-cobalt-min.js",
@@ -2843,7 +2843,7 @@
 		},
 	"\/js\/ace\/theme-crimson_editor.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-crimson_editor.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-crimson_editor-min.js",
@@ -2854,7 +2854,7 @@
 		},
 	"\/js\/ace\/theme-dawn.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-dawn.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-dawn-min.js",
@@ -2865,7 +2865,7 @@
 		},
 	"\/js\/ace\/theme-dreamweaver.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-dreamweaver.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-dreamweaver-min.js",
@@ -2876,7 +2876,7 @@
 		},
 	"\/js\/ace\/theme-eclipse.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-eclipse.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-eclipse-min.js",
@@ -2887,7 +2887,7 @@
 		},
 	"\/js\/ace\/theme-github.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-github.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-github-min.js",
@@ -2898,7 +2898,7 @@
 		},
 	"\/js\/ace\/theme-idle_fingers.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-idle_fingers.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-idle_fingers-min.js",
@@ -2909,7 +2909,7 @@
 		},
 	"\/js\/ace\/theme-katzenmilch.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-katzenmilch.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-katzenmilch-min.js",
@@ -2920,7 +2920,7 @@
 		},
 	"\/js\/ace\/theme-kr.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-kr.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-kr-min.js",
@@ -2931,7 +2931,7 @@
 		},
 	"\/js\/ace\/theme-kuroir.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-kuroir.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-kuroir-min.js",
@@ -2942,7 +2942,7 @@
 		},
 	"\/js\/ace\/theme-merbivore.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-merbivore.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-merbivore-min.js",
@@ -2953,7 +2953,7 @@
 		},
 	"\/js\/ace\/theme-merbivore_soft.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-merbivore_soft.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-merbivore_soft-min.js",
@@ -2964,7 +2964,7 @@
 		},
 	"\/js\/ace\/theme-mono_industrial.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-mono_industrial.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-mono_industrial-min.js",
@@ -2975,7 +2975,7 @@
 		},
 	"\/js\/ace\/theme-monokai.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-monokai.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-monokai-min.js",
@@ -2986,7 +2986,7 @@
 		},
 	"\/js\/ace\/theme-pastel_on_dark.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-pastel_on_dark.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-pastel_on_dark-min.js",
@@ -2997,7 +2997,7 @@
 		},
 	"\/js\/ace\/theme-solarized_dark.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-solarized_dark.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-solarized_dark-min.js",
@@ -3008,7 +3008,7 @@
 		},
 	"\/js\/ace\/theme-solarized_light.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-solarized_light.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-solarized_light-min.js",
@@ -3019,7 +3019,7 @@
 		},
 	"\/js\/ace\/theme-terminal.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-terminal.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-terminal-min.js",
@@ -3030,7 +3030,7 @@
 		},
 	"\/js\/ace\/theme-textmate.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-textmate.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-textmate-min.js",
@@ -3041,7 +3041,7 @@
 		},
 	"\/js\/ace\/theme-tomorrow.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-tomorrow.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-tomorrow-min.js",
@@ -3052,7 +3052,7 @@
 		},
 	"\/js\/ace\/theme-tomorrow_night.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-tomorrow_night.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-tomorrow_night-min.js",
@@ -3063,7 +3063,7 @@
 		},
 	"\/js\/ace\/theme-tomorrow_night_blue.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-tomorrow_night_blue.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-tomorrow_night_blue-min.js",
@@ -3074,7 +3074,7 @@
 		},
 	"\/js\/ace\/theme-tomorrow_night_bright.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-tomorrow_night_bright.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-tomorrow_night_bright-min.js",
@@ -3085,7 +3085,7 @@
 		},
 	"\/js\/ace\/theme-tomorrow_night_eighties.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-tomorrow_night_eighties.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-tomorrow_night_eighties-min.js",
@@ -3096,7 +3096,7 @@
 		},
 	"\/js\/ace\/theme-twilight.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-twilight.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-twilight-min.js",
@@ -3107,7 +3107,7 @@
 		},
 	"\/js\/ace\/theme-vibrant_ink.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-vibrant_ink.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-vibrant_ink-min.js",
@@ -3118,7 +3118,7 @@
 		},
 	"\/js\/ace\/theme-xcode.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/theme-xcode.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/theme-xcode-min.js",
@@ -3129,7 +3129,7 @@
 		},
 	"\/js\/ace\/worker-coffee.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/worker-coffee.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/worker-coffee-min.js",
@@ -3140,7 +3140,7 @@
 		},
 	"\/js\/ace\/worker-css.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/worker-css.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/worker-css-min.js",
@@ -3151,7 +3151,7 @@
 		},
 	"\/js\/ace\/worker-html.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/worker-html.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/worker-html-min.js",
@@ -3162,7 +3162,7 @@
 		},
 	"\/js\/ace\/worker-javascript.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/worker-javascript.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/worker-javascript-min.js",
@@ -3173,7 +3173,7 @@
 		},
 	"\/js\/ace\/worker-json.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/worker-json.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/worker-json-min.js",
@@ -3184,7 +3184,7 @@
 		},
 	"\/js\/ace\/worker-lua.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/worker-lua.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/worker-lua-min.js",
@@ -3195,7 +3195,7 @@
 		},
 	"\/js\/ace\/worker-php.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/worker-php.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/worker-php-min.js",
@@ -3206,7 +3206,7 @@
 		},
 	"\/js\/ace\/worker-xquery.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/ace\/worker-xquery.js",
 		"outputAbbreviatedPath": "\/js\/ace\/min\/worker-xquery-min.js",
@@ -3217,7 +3217,7 @@
 		},
 	"\/js\/jot\/controller.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/jot\/controller.js",
 		"outputAbbreviatedPath": "\/js\/jot\/min\/controller-min.js",
@@ -3228,7 +3228,7 @@
 		},
 	"\/js\/jot\/editor.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/jot\/editor.js",
 		"outputAbbreviatedPath": "\/js\/jot\/min\/editor-min.js",
@@ -3239,7 +3239,7 @@
 		},
 	"\/js\/jot\/information.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/jot\/information.js",
 		"outputAbbreviatedPath": "\/js\/jot\/min\/information-min.js",
@@ -3250,7 +3250,7 @@
 		},
 	"\/js\/jot\/storage.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/jot\/storage.js",
 		"outputAbbreviatedPath": "\/js\/jot\/min\/storage-min.js",
@@ -3261,7 +3261,7 @@
 		},
 	"\/js\/lib\/backbone.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/lib\/backbone.js",
 		"outputAbbreviatedPath": "\/js\/lib\/min\/backbone-min.js",
@@ -3272,7 +3272,7 @@
 		},
 	"\/js\/lib\/chai.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/lib\/chai.js",
 		"outputAbbreviatedPath": "\/js\/lib\/min\/chai-min.js",
@@ -3283,7 +3283,7 @@
 		},
 	"\/js\/lib\/d3.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/lib\/d3.js",
 		"outputAbbreviatedPath": "\/js\/lib\/min\/d3-min.js",
@@ -3294,7 +3294,7 @@
 		},
 	"\/js\/lib\/jquery.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/lib\/jquery.js",
 		"outputAbbreviatedPath": "\/js\/lib\/min\/jquery-min.js",
@@ -3305,7 +3305,7 @@
 		},
 	"\/js\/lib\/modernizr.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/lib\/modernizr.js",
 		"outputAbbreviatedPath": "\/js\/lib\/min\/modernizr-min.js",
@@ -3316,7 +3316,7 @@
 		},
 	"\/js\/lib\/require.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/lib\/require.js",
 		"outputAbbreviatedPath": "\/js\/lib\/min\/require-min.js",
@@ -3327,7 +3327,7 @@
 		},
 	"\/js\/lib\/underscore.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/lib\/underscore.js",
 		"outputAbbreviatedPath": "\/js\/lib\/min\/underscore-min.js",
@@ -3338,7 +3338,7 @@
 		},
 	"\/js\/main.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/main.js",
 		"outputAbbreviatedPath": "\/js\/min\/main-min.js",
@@ -3894,7 +3894,7 @@
 	"jadeAutoOutputPathStyle": 0,
 	"jadeCompileDebug": 1,
 	"jadeOutputStyle": 0,
-	"javascriptAutoOutputPathEnabled": 1,
+	"javascriptAutoOutputPathEnabled": 0,
 	"javascriptAutoOutputPathFilenamePattern": "*-min.js",
 	"javascriptAutoOutputPathRelativePath": "\/min",
 	"javascriptAutoOutputPathReplace1": "",
@@ -3922,7 +3922,7 @@
 			"flagValue": -1
 			},
 		"camelcase": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"couch": {
@@ -3938,7 +3938,7 @@
 			"flagValue": -1
 			},
 		"devel": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"dojo": {
@@ -4130,7 +4130,7 @@
 			"flagValue": -1
 			},
 		"strict": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"sub": {
@@ -4150,7 +4150,7 @@
 			"flagValue": -1
 			},
 		"unused": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"withstmt": {
@@ -4264,15 +4264,15 @@
 			"flagValue": -1
 			},
 		"unparam": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"vars": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"white": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			}
 		},

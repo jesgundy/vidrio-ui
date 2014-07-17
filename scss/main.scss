@@ -1,9 +1,13 @@
-@import "bourbon"; // bourbon loaded via Codekit
+// Libs
+@import "bourbon"; // loaded via Codekit
 @import "lib/normalize";
-@import "global/vars";
-@import "global/mixins";
 @import "lib/font-awesome/font-awesome";
 
+// Assets
+@import "global/vars";
+@import "global/mixins";
+
+// Base Styles
 @import "global/base";
 
 // Components
@@ -11,4 +15,5 @@
 @import "components/information";
 @import "components/toolbox";
 
+// Misc
 // @import "global/print";

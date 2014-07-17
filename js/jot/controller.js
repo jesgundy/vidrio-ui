@@ -4,9 +4,8 @@
 define([
   "backbone",
   "./editor",
-  "./information",
   "./storage"
-], function( Backbone, Editor, Information, Storage ) {
+], function( Backbone, Editor, Storage ) {
   "use strict";
 
 
@@ -20,12 +19,6 @@ define([
       // Instantiate Editor View
       this.editor = new Editor({
         el: this.$('#editor'),
-        model: this.model
-      });
-
-      // Instantiate Information View
-      this.information = new Information({
-        el: this.el, // share the top level elements
         model: this.model
       });
     }

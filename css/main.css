@@ -1988,23 +1988,6 @@ h6 {
 .ace_editor {
   font-family: "Source Code Pro", 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace !important; }
 
-.information-panel {
-  -webkit-transition: bottom 0.25s ease;
-  -moz-transition: bottom 0.25s ease;
-  transition: bottom 0.25s ease;
-  background: #232323;
-  border-right: 2px solid #a84b37;
-  bottom: 100%;
-  left: 0;
-  margin-right: 3em;
-  overflow: auto;
-  padding: 0 1em 0 3em;
-  position: absolute;
-  top: 0;
-  z-index: 10; }
-  .information-panel.active {
-    bottom: 0; }
-
 .toolbox {
   position: absolute;
   right: 0;

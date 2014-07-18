@@ -6,7 +6,7 @@ require.config({
     'd3': 'lib/d3',
     'jquery': 'lib/jquery',
     'underscore': 'lib/underscore',
-    'localstorage': 'lib/backbone.localStorage'
+    'store': 'lib/store'
   },
   map: {
     '*': {

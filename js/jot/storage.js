@@ -2,32 +2,37 @@
 
 /*global define*/// JSHint global vars
 define([
-  "backbone"
-], function( Backbone ) {
+  "backbone",
+  "store"
+], function( Backbone, store ) {
   "use strict";
 
 
   // Backbone Model
   var Storage = Backbone.Model.extend({
 
-    // document content empty string by default
     defaults: {
-      document: ""
+      document: "",
+      mode: "markdown"
     },
 
-    // when instantiated
     initialize: function() {
-      // set contents to any
-      if (localStorage.jotStorage) {
-        this.set("document", localStorage.jotStorage);
+      // If no local storage
+      if (!store.enabled) {
+        this.set("document", "# Fair warning - Your browser doesn't support local storage, so anything you write is going to be blown away on refresh.");
+        return;
       }
-      // listen for document change
-      this.on("change:document", this.saveDocument);
+
+      // otherwise get stored info
+      this.set( store.get("jotStorage") );
+
+      // and listen for changes
+      this.on("change", this.saveDocument);
     },
 
-    // save document contents to local storage
+    // save info to local storage
     saveDocument: function() {
-      localStorage.jotStorage = this.get("document");
+      store.set( "jotStorage", this.toJSON() );
     }
 
   });

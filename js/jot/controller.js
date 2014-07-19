@@ -4,8 +4,9 @@
 define([
   "backbone",
   "./editor",
+  "./mode",
   "./storage"
-], function( Backbone, Editor, Storage ) {
+], function( Backbone, Editor, Mode, Storage ) {
   "use strict";
 
 
@@ -19,6 +20,12 @@ define([
       // Instantiate Editor View
       this.editor = new Editor({
         el: this.$('#editor'),
+        model: this.model
+      });
+
+      // Instantiate Editor View
+      this.mode = new Mode({
+        el: this.$('.jot-mode'),
         model: this.model
       });
     }

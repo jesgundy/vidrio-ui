@@ -21,13 +21,15 @@ define([
       this.buildEditor();
       // set focus on the editor
       this.editor.focus();
+      // listen for mode change
+      this.listenTo(this.model, "change:mode", this.changeMode);
     },
 
     // build the session
     buildSession: function() {
       var self = this;
       this.session = ace.createEditSession( this.model.get("document") ); // passed value of editor
-      this.session.setMode("ace/mode/markdown");
+      this.session.setMode( "ace/mode/" + this.model.get("mode") );
       this.session.setTabSize(2);
       this.session.setUseSoftTabs(true);
       this.session.setUseWrapMode(true);
@@ -50,6 +52,11 @@ define([
     // save document content
     saveDocument: function() {
       this.model.set("document", this.session.getValue() );
+    },
+
+    changeMode: function() {
+      this.session.setMode( "ace/mode/" + this.model.get("mode") );
+      this.editor.setSession( this.session );
     }
 
   });

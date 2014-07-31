@@ -1986,7 +1986,10 @@ h6 {
   left: 0; }
 
 .ace_editor {
-  font-family: "Source Code Pro", 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace !important; }
+  font-family: "Source Code Pro", "Monaco", "Menlo", "Ubuntu Mono", "Consolas", monospace !important; }
+
+.print-container {
+  display: none; }
 
 .toolbox {
   bottom: 0;
@@ -2020,3 +2023,53 @@ h6 {
       color: #232323; }
   .toolbox .information-button {
     float: right; }
+
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important; }
+
+  a,
+  a:visited {
+    text-decoration: underline; }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */ }
+
+  tr,
+  img {
+    page-break-inside: avoid; }
+
+  img {
+    max-width: 100% !important; }
+
+  @page {
+    margin: 0.5cm; }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+
+  h2,
+  h3 {
+    page-break-after: avoid; }
+
+  .toolbox,
+  #editor {
+    display: none; }
+
+  .print-container {
+    border: none;
+    background: none;
+    display: block !important;
+    padding: 1em; } }

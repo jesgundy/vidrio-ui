@@ -3,9 +3,10 @@
 /*global define*/// JSHint global vars
 define([
   "backbone",
+  "jquery",
   "underscore",
   "ace/ace"
-], function( Backbone, _, ace ) {
+], function( Backbone, $, _, ace ) {
   "use strict";
 
 
@@ -64,6 +65,26 @@ define([
         },
         exec: function(editor) {
           self.saveDocument();
+        },
+        readOnly: false
+      });
+
+      // custom print
+      this.editor.commands.addCommand({
+        name: 'print',
+        bindKey: {
+          win: 'Ctrl-P',
+          mac: 'Command-P'
+        },
+        exec: function(editor) {
+          // get printContainer element (once)
+          self.printContainer = self.printContainer || $(".print-container");
+
+          // set content to printed container
+          self.printContainer.html( editor.getValue() );
+
+          // fire print event
+          window.print();
         },
         readOnly: false
       });

@@ -12,5 +12,11 @@
 
 // override Ace font stack
 .ace_editor {
-  font-family: "Source Code Pro", 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace !important;
+  font-family: $monospace;
+}
+
+
+// hide print container
+.print-container {
+  display: none;
 }

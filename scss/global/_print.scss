@@ -49,4 +49,26 @@
     page-break-after: avoid;
   }
 
+  // custom print styles
+  // html,
+  // body,
+  // .container,
+  // #editor {
+  //   position: static !important;
+  //   min-height: 100% !important;
+  //   overflow: visible !important;
+  // }
+
+  .toolbox,
+  #editor {
+    display: none;
+  }
+
+  .print-container {
+    border: none;
+    background: none;
+    display: block !important;
+    padding: 1em;
+  }
+
 }

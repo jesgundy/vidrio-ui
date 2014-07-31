@@ -2,21 +2,29 @@
 
 /*global define*/// JSHint global vars
 define([
-  "backbone"
-], function( Backbone ) {
+  "backbone",
+  "underscore"
+], function( Backbone, _ ) {
   "use strict";
 
 
   // Backbone view
   var Mode = Backbone.View.extend({
 
-    changeMode: function() {
+    template: _.template('<i class="fa fa-edit fa-lg"></i> <%= mode %>'),
+
+    initialize: function() {
+      this.listenTo(this.model, "change:mode", this.render);
+      this.render();
+    },
+
+    changeMode: function(e) {
       var mode = this.model.get("mode");
-      if (mode === "markdown") {
-        this.model.set("mode", "text");
-      } else {
-        this.model.set("mode", "markdown");
-      }
+      this.model.set("mode", ((mode === "markdown") ? "text" : "markdown"));
+    },
+
+    render: function() {
+      this.$el.html( this.template( this.model.attributes ));
     },
 
     events: {

@@ -1,27 +1,30 @@
 // Toolbox
 
 .toolbox {
+  bottom: 0;
+  border-top: 2px solid map-get($colors, black);
+  height: 3em;
+  left: 0;
   position: absolute;
-  right: 0;
-  top: 0;
-  width: 3em;
+  width: 100%;
 
   ul {
-    @include font-size(22);
+    @include font-size(16);
     @include reset-list;
     width: 100%;
 
     li {
       display: block;
-      text-align: center;
-      width: 100%;
+      float: left;
     }
   }
 
   a {
     display: block;
     line-height: 1;
-    padding: 0.35em 0.25em 0.25em;
+    height: 3em;
+    padding: 0.75em 1em;
+    text-transform: capitalize;
 
     &.active,
     &:hover,
@@ -33,8 +36,7 @@
     }
   }
 
-  // Hide helper text
-  span {
-    @include visuallyhidden;
+  .information-button {
+    float: right;
   }
 }

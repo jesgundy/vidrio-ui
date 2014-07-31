@@ -46,7 +46,27 @@ define([
       this.editor = ace.edit( this.el );
       this.editor.setTheme("ace/theme/twilight");
       this.editor.setFontSize(14);
+
+      this.buildCustomCommands();
+
       this.editor.setSession( this.session );
+    },
+
+    buildCustomCommands: function() {
+      var self = this;
+
+      // save (overrides browser default)
+      this.editor.commands.addCommand({
+        name: 'save',
+        bindKey: {
+          win: 'Ctrl-S',
+          mac: 'Command-S'
+        },
+        exec: function(editor) {
+          self.saveDocument();
+        },
+        readOnly: false
+      });
     },
 
     // save document content

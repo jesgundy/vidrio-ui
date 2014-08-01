@@ -4,14 +4,17 @@
 define([
   "backbone",
   "jquery",
+  "showdown",
   "underscore",
   "ace/ace"
-], function( Backbone, $, _, ace ) {
+], function( Backbone, $, Showdown, _, ace ) {
   "use strict";
 
 
   // Backbone view
   var Editor = Backbone.View.extend({
+
+    converter: new Showdown.converter(),
 
     initialize: function() {
       // debounce saveDocument function
@@ -81,7 +84,15 @@ define([
           self.printContainer = self.printContainer || $(".print-container");
 
           // set content to printed container
-          self.printContainer.html( editor.getValue() );
+          if (self.model.get("mode") === "text") {
+            self.printContainer.html( "<pre>"+ editor.getValue() + "</pre>" );
+          } else {
+            var html = self.converter.makeHtml( editor.getValue() );
+            self.printContainer.html('<div class="formatted-print">'+  html +"<div>");
+          }
+
+
+
 
           // fire print event
           window.print();

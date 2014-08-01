@@ -1,4 +1,4 @@
-// View for the Jot mode button.
+// View for the Jot export container.
 
 /*global define*/// JSHint global vars
 define([

@@ -7,7 +7,8 @@ require.config({
     'jquery': 'lib/jquery',
     'underscore': 'lib/underscore',
     'showdown': 'lib/showdown',
-    'store': 'lib/store'
+    'store': 'lib/store',
+    'zeroclipboard': 'lib/zeroclipboard'
   },
   map: {
     '*': {

@@ -3,10 +3,14 @@
 /*global define*/// JSHint global vars
 define([
   "backbone",
-  "underscore"
-], function( Backbone, _ ) {
+  "underscore",
+  "zeroclipboard"
+], function( Backbone, _, ZeroClipboard ) {
   "use strict";
 
+
+  // setup ZeroClipboard
+  ZeroClipboard.config( { swfPath: "/js/lib/ZeroClipboard.swf" } );
 
   // Backbone view
   var Toolbox = Backbone.View.extend({
@@ -14,6 +18,7 @@ define([
     initialize: function() {
       this.modeButton = this.$(".jot-mode");
       this.listenTo(this.model, "change:mode", this.render);
+      this.setupCopy();
       this.render();
     },
 
@@ -25,6 +30,10 @@ define([
 
     render: function() {
       this.modeButton.html( this.model.get("mode") );
+    },
+
+    setupCopy: function() {
+      this.copyClient = new ZeroClipboard( this.$(".jot-copy") );
     },
 
     copy: function() {

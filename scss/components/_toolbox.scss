@@ -29,7 +29,7 @@
     li {
       display: block;
       float: left;
-      padding: 0.9em 0.8em;
+      padding: 0.9em 0 0.9em 0.8em;
     }
   }
 
@@ -42,6 +42,6 @@
   .information-button {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 0.8em;
   }
 }

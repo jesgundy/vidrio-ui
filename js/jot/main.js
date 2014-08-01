@@ -1,12 +1,12 @@
-// App controller for Jot. Manages the model, and several sub-views.
+// App controller and parent view for Jot. Manages the model, and several sub-views.
 
 /*global define*/// JSHint global vars
 define([
   "backbone",
-  "./editor",
-  "./mode",
-  "./storage"
-], function( Backbone, Editor, Mode, Storage ) {
+  "./model",
+  "./view-editor",
+  "./view-toolbox"
+], function( Backbone, JotStorage, Editor, Toolbox ) {
   "use strict";
 
 
@@ -15,7 +15,7 @@ define([
 
     initialize: function() {
       // instantiate model
-      this.model = new Storage();
+      this.model = new JotStorage();
 
       // Instantiate Editor View
       this.editor = new Editor({
@@ -24,8 +24,8 @@ define([
       });
 
       // Instantiate Editor View
-      this.mode = new Mode({
-        el: this.$('.jot-mode'),
+      this.mode = new Toolbox({
+        el: this.$('.toolbox'),
         model: this.model
       });
     }

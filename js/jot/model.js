@@ -9,10 +9,11 @@ define([
 
 
   // Backbone Model
-  var Storage = Backbone.Model.extend({
+  var JotStorage = Backbone.Model.extend({
 
     defaults: {
       document: "",
+      export: "",
       mode: "markdown"
     },
 
@@ -39,7 +40,7 @@ define([
 
 
   // return constructor
-  return Storage;
+  return JotStorage;
 
 
 });

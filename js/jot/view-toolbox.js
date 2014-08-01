@@ -9,9 +9,10 @@ define([
 
 
   // Backbone view
-  var Mode = Backbone.View.extend({
+  var Toolbox = Backbone.View.extend({
 
     initialize: function() {
+      this.modeButton = this.$(".jot-mode");
       this.listenTo(this.model, "change:mode", this.render);
       this.render();
     },
@@ -23,18 +24,24 @@ define([
     },
 
     render: function() {
-      this.$el.html( this.model.get("mode") );
+      this.modeButton.html( this.model.get("mode") );
+    },
+
+    copy: function() {
+      console.log("copy");
+      return false;
     },
 
     events: {
-      "click": "changeMode"
+      "click .jot-mode": "changeMode",
+      "click .jot-copy": "copy"
     }
 
   });
 
 
   // Return Constructor
-  return Mode;
+  return Toolbox;
 
 
 });

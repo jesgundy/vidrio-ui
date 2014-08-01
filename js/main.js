@@ -67,7 +67,7 @@ define(['detection'], function( detection ) {
 
   // Editor
   if ( detection.has('.jot') ) {
-    mods.push('jot/controller');
+    mods.push('jot/main');
   }
 
   require(mods);

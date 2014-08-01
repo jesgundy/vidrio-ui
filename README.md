@@ -14,7 +14,7 @@ Two flavors: plain **text** and **markdown**. Clicking the label swaps it back a
 
 If yoour browser supports it, your content is stored locally while you type. TheCommand-s/ctrl-s is remapped mostly to keep me from going crazy while I mash the save hotkey over and over while I write out of habit.
 
-**DO NOT* depend on Jot for storing your content. Clearing your cache will blow away local storage and any content you had saved here. Jot is intended to be a zero-barrier way to start taking notes quickly, not a long term storage space for notes.*
+*DO NOT depend on Jot for storing your content. Clearing your cache will blow away local storage and any content you had saved here. Jot is intended to be a zero-barrier way to start taking notes quickly, not a long term storage space for notes.*
 
 ### Export
 

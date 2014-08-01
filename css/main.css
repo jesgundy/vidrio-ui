@@ -1951,8 +1951,9 @@ a {
   text-decoration: none; }
   a:link, a:visited {
     color: #c5624d; }
-  a:focus, a:hover, a:active {
-    color: #a84b37; }
+  a:focus, a:hover, a:active, a.zeroclipboard-is-hover, a.zeroclipboard-is-active {
+    color: #a84b37;
+    outline: none; }
 
 h1,
 h2,

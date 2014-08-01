@@ -29,8 +29,11 @@ a {
 
   &:focus,
   &:hover,
-  &:active {
+  &:active,
+  &.zeroclipboard-is-hover,
+  &.zeroclipboard-is-active {
     color: darken(map-get($colors, link), 10%);
+    outline: none;
   }
 }
 

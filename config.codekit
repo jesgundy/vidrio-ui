@@ -3215,45 +3215,56 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/jot\/controller.js": {
+	"\/js\/jot\/main.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/jot\/controller.js",
-		"outputAbbreviatedPath": "\/js\/jot\/min\/controller-min.js",
+		"inputAbbreviatedPath": "\/js\/jot\/main.js",
+		"outputAbbreviatedPath": "\/js\/jot\/min\/main-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/jot\/editor.js": {
+	"\/js\/jot\/model.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/jot\/editor.js",
-		"outputAbbreviatedPath": "\/js\/jot\/min\/editor-min.js",
+		"inputAbbreviatedPath": "\/js\/jot\/model.js",
+		"outputAbbreviatedPath": "\/js\/jot\/min\/model-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/jot\/mode.js": {
+	"\/js\/jot\/view-editor.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/jot\/mode.js",
-		"outputAbbreviatedPath": "\/js\/jot\/min\/mode-min.js",
+		"inputAbbreviatedPath": "\/js\/jot\/view-editor.js",
+		"outputAbbreviatedPath": "\/js\/jot\/min\/view-editor-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/jot\/storage.js": {
+	"\/js\/jot\/view-export.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/jot\/storage.js",
-		"outputAbbreviatedPath": "\/js\/jot\/min\/storage-min.js",
+		"inputAbbreviatedPath": "\/js\/jot\/view-export.js",
+		"outputAbbreviatedPath": "\/js\/jot\/min\/view-export-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/jot\/view-toolbox.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jot\/view-toolbox.js",
+		"outputAbbreviatedPath": "\/js\/jot\/min\/view-toolbox-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -3353,6 +3364,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/lib\/underscore.js",
 		"outputAbbreviatedPath": "\/js\/lib\/min\/underscore-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/lib\/zeroclipboard.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/lib\/zeroclipboard.js",
+		"outputAbbreviatedPath": "\/js\/lib\/min\/zeroclipboard-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

@@ -22,7 +22,6 @@
   }
 
   ul {
-    // @include font-size(16);
     @include reset-list;
     float: left;
     line-height: 1;
@@ -36,17 +35,8 @@
 
   a {
     display: block;
-    // color: map-get($colors, link);
     line-height: 1;
     text-transform: capitalize;
-
-    &.active,
-    &:hover,
-    &:focus,
-    &:active {
-      border: none;
-      color: map-get($colors, color);
-    }
   }
 
   .information-button {

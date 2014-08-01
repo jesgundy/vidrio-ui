@@ -3,10 +3,11 @@ $colors: (
   black: #141414,
   background: #232323,
   color: #E2E2E2,
-  link: #a84b37,
+  link: lighten(#a84b37, 10%),
 );
 
 
 // Font stacks
-$monospace: "Source Code Pro", 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace !important; // !important included to override
+// !important included to override Ace font stack
+$monospace: "Source Code Pro", 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace !important;
 $sans: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;

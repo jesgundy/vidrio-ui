@@ -22,23 +22,15 @@ body {
 a {
   text-decoration: none;
 
-  &:link {
-    color: map-get($colors, link);
-  }
-
+  &:link,
   &:visited {
-    color: lighten(map-get($colors, link), 10%);
+    color: map-get($colors, link);
   }
 
   &:focus,
-  &:hover {
-    color: darken(map-get($colors, link), 10%);
-    border-bottom: 1px solid darken(map-get($colors, link), 10%);
-  }
-
+  &:hover,
   &:active {
-    color: map-get($colors, link);
-    border-bottom: 1px solid map-get($colors, link);
+    color: darken(map-get($colors, link), 10%);
   }
 }
 

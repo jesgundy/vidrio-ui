@@ -15,6 +15,7 @@ define([
   var Editor = Backbone.View.extend({
 
     converter: new Showdown.converter(),
+    exportContainer: $(".export-container"),
 
     initialize: function() {
       // debounce saveDocument function
@@ -79,26 +80,22 @@ define([
           win: 'Ctrl-P',
           mac: 'Command-P'
         },
-        exec: function(editor) {
-          // get printContainer element (once)
-          self.printContainer = self.printContainer || $(".print-container");
-
-          // set content to printed container
-          if (self.model.get("mode") === "text") {
-            self.printContainer.html( "<pre>"+ editor.getValue() + "</pre>" );
-          } else {
-            var html = self.converter.makeHtml( editor.getValue() );
-            self.printContainer.html('<div class="formatted-print">'+  html +"<div>");
-          }
-
-
-
-
-          // fire print event
+        exec: function() {
+          self.exportContent();
           window.print();
         },
         readOnly: false
       });
+    },
+
+    exportContent: function() {
+      // set content to printed container
+      if (this.model.get("mode") === "text") {
+        this.exportContainer.html( "<pre>"+ this.editor.getValue() + "</pre>" );
+      } else {
+        var html = this.converter.makeHtml( this.editor.getValue() );
+        this.exportContainer.html('<div class="formatted">'+  html +"<div>");
+      }
     },
 
     // save document content

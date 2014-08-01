@@ -1949,16 +1949,10 @@ body {
 
 a {
   text-decoration: none; }
-  a:link {
-    color: #a84b37; }
-  a:visited {
+  a:link, a:visited {
     color: #c5624d; }
-  a:focus, a:hover {
-    color: #823a2a;
-    border-bottom: 1px solid #823a2a; }
-  a:active {
-    color: #a84b37;
-    border-bottom: 1px solid #a84b37; }
+  a:focus, a:hover, a:active {
+    color: #a84b37; }
 
 h1,
 h2,
@@ -1988,8 +1982,64 @@ h6 {
 .ace_editor {
   font-family: "Source Code Pro", "Monaco", "Menlo", "Ubuntu Mono", "Consolas", monospace !important; }
 
-.print-container {
+.export-container {
   display: none; }
+  .export-container .formatted {
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    line-height: goldern-ratio(1, 1);
+    padding-left: 2em;
+    text-rendering: optimizeLegibility;
+    width: 61.8047%; }
+    .export-container .formatted h1,
+    .export-container .formatted h2,
+    .export-container .formatted h3,
+    .export-container .formatted h4,
+    .export-container .formatted h5,
+    .export-container .formatted h6 {
+      font-weight: bold;
+      line-height: 1;
+      margin: 1.618em 0 1em; }
+    .export-container .formatted h1 {
+      font-size: 30px;
+      font-size: 3rem;
+      font-weight: 300; }
+    .export-container .formatted h2 {
+      font-size: 22px;
+      font-size: 2.2rem; }
+    .export-container .formatted h3 {
+      font-size: 18px;
+      font-size: 1.8rem;
+      text-transform: uppercase; }
+    .export-container .formatted h4,
+    .export-container .formatted h5,
+    .export-container .formatted h6 {
+      font-size: 16px;
+      font-size: 1.6rem; }
+    .export-container .formatted blockquote {
+      border: none;
+      border-left: 2px solid #ddd;
+      font-style: italic;
+      padding: 0 1em;
+      margin: 1em 0 1em 1em; }
+    .export-container .formatted hr {
+      border: none;
+      border-top: 2px solid #ddd;
+      display: block;
+      height: 0;
+      margin: 2em 0;
+      width: 100%; }
+    .export-container .formatted pre {
+      font-size: 14px;
+      font-size: 1.4rem;
+      display: block;
+      font-family: "Source Code Pro", "Monaco", "Menlo", "Ubuntu Mono", "Consolas", monospace !important;
+      line-height: 1.3;
+      margin: 1em 0 1em 1em;
+      padding: 0.5em 1em;
+      border-left: 2px solid #000; }
 
 .toolbox {
   border-top: 2px solid #141414;
@@ -2023,9 +2073,6 @@ h6 {
     display: block;
     line-height: 1;
     text-transform: capitalize; }
-    .toolbox a.active, .toolbox a:hover, .toolbox a:focus, .toolbox a:active {
-      border: none;
-      color: #e2e2e2; }
   .toolbox .information-button {
     position: absolute;
     top: 0;
@@ -2075,66 +2122,9 @@ h6 {
   #editor {
     display: none; }
 
-  .print-container {
+  .export-container {
     border: none;
     display: block;
     padding: 1em; }
-    .print-container pre {
-      border: none; }
-
-  .formatted-print {
-    font-size: 16px;
-    font-size: 1.6rem;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: 300;
-    line-height: goldern-ratio(1, 1);
-    padding-left: 2em;
-    text-rendering: optimizeLegibility;
-    width: 61.8047%; }
-    .formatted-print h1,
-    .formatted-print h2,
-    .formatted-print h3,
-    .formatted-print h4,
-    .formatted-print h5,
-    .formatted-print h6 {
-      font-weight: bold;
-      line-height: 1;
-      margin: 1.618em 0 1em; }
-    .formatted-print h1 {
-      font-size: 30px;
-      font-size: 3rem;
-      font-weight: 300; }
-    .formatted-print h2 {
-      font-size: 22px;
-      font-size: 2.2rem; }
-    .formatted-print h3 {
-      font-size: 18px;
-      font-size: 1.8rem;
-      text-transform: uppercase; }
-    .formatted-print h4,
-    .formatted-print h5,
-    .formatted-print h6 {
-      font-size: 16px;
-      font-size: 1.6rem; }
-    .formatted-print blockquote {
-      border: none;
-      border-left: 2px solid #ddd;
-      font-style: italic;
-      padding: 0 1em;
-      margin: 1em 0 1em 1em; }
-    .formatted-print hr {
-      border: none;
-      border-top: 2px solid #ddd;
-      display: block;
-      height: 0;
-      margin: 2em 0;
-      width: 100%; }
-    .formatted-print pre {
-      font-size: 14px;
-      font-size: 1.4rem;
-      display: block;
-      font-family: "Source Code Pro", "Monaco", "Menlo", "Ubuntu Mono", "Consolas", monospace !important;
-      line-height: 1.3;
-      margin: 1em 0 1em 1em;
-      padding: 0.5em 1em;
-      border-left: 2px solid #000; } }
+    .export-container pre {
+      border: none; } }

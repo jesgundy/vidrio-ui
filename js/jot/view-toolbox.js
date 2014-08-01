@@ -17,7 +17,7 @@ define([
       this.render();
     },
 
-    changeMode: function(e) {
+    changeMode: function() {
       var mode = this.model.get("mode");
       this.model.set("mode", ((mode === "markdown") ? "text" : "markdown"));
       return false;

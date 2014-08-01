@@ -5,8 +5,9 @@ define([
   "backbone",
   "./model",
   "./view-editor",
+  "./view-export",
   "./view-toolbox"
-], function( Backbone, JotStorage, Editor, Toolbox ) {
+], function( Backbone, JotStorage, Editor, Export, Toolbox ) {
   "use strict";
 
 
@@ -26,6 +27,11 @@ define([
       // Instantiate Editor View
       this.mode = new Toolbox({
         el: this.$('.toolbox'),
+        model: this.model
+      });
+
+      this.export = new Export({
+        el: this.$(".export-container"),
         model: this.model
       });
     }

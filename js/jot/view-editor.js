@@ -4,18 +4,14 @@
 define([
   "backbone",
   "jquery",
-  "showdown",
   "underscore",
   "ace/ace"
-], function( Backbone, $, Showdown, _, ace ) {
+], function( Backbone, $, _, ace ) {
   "use strict";
 
 
   // Backbone view
   var Editor = Backbone.View.extend({
-
-    converter: new Showdown.converter(),
-    exportContainer: $(".export-container"),
 
     initialize: function() {
       // debounce saveDocument function
@@ -72,30 +68,6 @@ define([
         },
         readOnly: false
       });
-
-      // custom print
-      this.editor.commands.addCommand({
-        name: 'print',
-        bindKey: {
-          win: 'Ctrl-P',
-          mac: 'Command-P'
-        },
-        exec: function() {
-          self.exportContent();
-          window.print();
-        },
-        readOnly: false
-      });
-    },
-
-    exportContent: function() {
-      // set content to printed container
-      if (this.model.get("mode") === "text") {
-        this.exportContainer.html( "<pre>"+ this.editor.getValue() + "</pre>" );
-      } else {
-        var html = this.converter.makeHtml( this.editor.getValue() );
-        this.exportContainer.html('<div class="formatted">'+  html +"<div>");
-      }
     },
 
     // save document content

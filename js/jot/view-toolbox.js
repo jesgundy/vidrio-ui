@@ -37,7 +37,6 @@ define([
     },
 
     copy: function() {
-      console.log("copy");
       return false;
     },
 

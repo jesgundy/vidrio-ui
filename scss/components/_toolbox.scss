@@ -2,12 +2,17 @@
 
 .toolbox {
   border-top: 2px solid map-get($colors, black);
+  display: none;
   height: 3em;
   left: 0;
   overflow: hidden;
   position: absolute;
   top: 0;
   width: 100%;
+
+  .js & {
+    display: block;
+  }
 
   h1 {
     // @include font-size(16);

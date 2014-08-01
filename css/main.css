@@ -1965,13 +1965,11 @@ h6 {
   font-size: 1.4rem;
   font-weight: normal; }
 
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none; }
-
-::selection {
-  background: #b3d4fc;
-  text-shadow: none; }
+.js-warning {
+  display: block;
+  padding: 1em; }
+  .js .js-warning {
+    display: none; }
 
 #editor {
   position: absolute;
@@ -2044,12 +2042,15 @@ h6 {
 
 .toolbox {
   border-top: 2px solid #141414;
+  display: none;
   height: 3em;
   left: 0;
   overflow: hidden;
   position: absolute;
   top: 0;
   width: 100%; }
+  .js .toolbox {
+    display: block; }
   .toolbox h1 {
     float: left;
     padding: 0.9em 0 0.9em 1em;

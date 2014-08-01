@@ -13,7 +13,7 @@ define([
 
     defaults: {
       document: "",
-      export: ""
+      mode: "markdown"
     },
 
     initialize: function() {

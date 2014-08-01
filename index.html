@@ -10,7 +10,13 @@
 <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
 
 <!-- Styless -->
-<link rel="stylesheet" href="css/main.css" /></head>
+<link rel="stylesheet" href="css/main.css" />
+
+<!-- Test JS Presence -->
+<script type="text/javascript">
+  var docElement = document.documentElement;
+  docElement.className = docElement.className.replace(/(^|\s)no-js(\s|$)/, '$1$2') + ' js ';
+</script></head>
 <body>
 
   <!-- Global wrapper -->
@@ -45,6 +51,11 @@
 
   <!-- Print Container -->
   <div id="export" class="export-container"></div>
+
+  <!-- JS Warning -->
+  <div class="js-warning">
+    <p>Jot require JavaScript to run. Sorry.</p>
+  </div>
 
 </div>
 

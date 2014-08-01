@@ -8,3 +8,9 @@
 
 <!-- Styless -->
 <link rel="stylesheet" href="css/main.css" />
+
+<!-- Test JS Presence -->
+<script type="text/javascript">
+  var docElement = document.documentElement;
+  docElement.className = docElement.className.replace(/(^|\s)no-js(\s|$)/, '$1$2') + ' js ';
+</script>

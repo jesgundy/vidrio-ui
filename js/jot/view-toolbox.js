@@ -10,7 +10,7 @@ define([
 
 
   // setup ZeroClipboard
-  ZeroClipboard.config( { swfPath: "/js/lib/ZeroClipboard.swf" } );
+  ZeroClipboard.config( { swfPath: "/js/lib/zerozlipboard.swf" } );
 
   // Backbone view
   var Toolbox = Backbone.View.extend({

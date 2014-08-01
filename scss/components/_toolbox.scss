@@ -1,42 +1,57 @@
 // Toolbox
 
 .toolbox {
-  bottom: 0;
   border-top: 2px solid map-get($colors, black);
   height: 3em;
   left: 0;
+  overflow: hidden;
   position: absolute;
+  top: 0;
   width: 100%;
 
+  h1 {
+    // @include font-size(16);
+    float: left;
+    padding: 0.9em 0 0.9em 1em;
+    line-height: 1;
+    margin: 0;
+
+    &:after {
+      content: " |";
+    }
+  }
+
   ul {
-    @include font-size(16);
+    // @include font-size(16);
     @include reset-list;
-    width: 100%;
+    float: left;
+    line-height: 1;
 
     li {
       display: block;
       float: left;
+      padding: 0.9em 0.8em;
     }
   }
 
   a {
     display: block;
+    // color: map-get($colors, link);
     line-height: 1;
-    height: 3em;
-    padding: 0.75em 1em;
     text-transform: capitalize;
 
     &.active,
     &:hover,
     &:focus,
     &:active {
-      background: map-get($colors, link);
       border: none;
-      color: map-get($colors, background);
+      color: map-get($colors, color);
     }
   }
 
   .information-button {
-    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 }

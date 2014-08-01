@@ -6,6 +6,7 @@ require.config({
     'd3': 'lib/d3',
     'jquery': 'lib/jquery',
     'underscore': 'lib/underscore',
+    'showdown': 'lib/showdown',
     'store': 'lib/store'
   },
   map: {

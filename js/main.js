@@ -10,16 +10,6 @@ require.config({
     'store': 'lib/store',
     'zeroclipboard': 'lib/zeroclipboard'
   },
-  map: {
-    '*': {
-      'backbone': 'private/backbone',
-      'jquery': 'private/jquery',
-      'underscore': 'private/underscore'
-    },
-    'private/backbone': { 'backbone': 'backbone' },
-    'private/jquery': { 'jquery': 'jquery' },
-    'private/underscore': { 'underscore': 'underscore' }
-  },
   urlArgs: window.REQUIRE_NOCACHE ? 'bust='+(new Date()).getTime() : null
 });
 
@@ -47,18 +37,6 @@ define('detection', function() {
       return this.find(selector).length > 0;
     }
   };
-});
-
-
-// Privatized Libraries
-define('private/jquery', ['jquery'], function($) {
-  return $.noConflict( true );
-});
-define('private/underscore', ['underscore'], function(_) {
-  return _.noConflict();
-});
-define('private/backbone', ['backbone'], function(Backbone) {
-  return Backbone.noConflict();
 });
 
 

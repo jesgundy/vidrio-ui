@@ -45,7 +45,7 @@ define([
     // build the editor
     buildEditor: function() {
       this.editor = ace.edit( this.el );
-      this.editor.setTheme("ace/theme/twilight");
+      this.editor.setTheme("ace/theme/github");
       this.editor.setFontSize(14);
       this.editor.setShowPrintMargin(false);
 

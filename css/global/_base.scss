@@ -6,10 +6,16 @@
 }
 
 // Global Styles
+html {
+  height: 100%;
+}
 body {
   @include font-size(14);
-  background: map-get($colors, background);
-  color: map-get($colors, color);
+  background: blue;
+  background: url(../img/bg-1.jpg) no-repeat center center;
+  background-size: cover;
+  color: #222;
+  height: 100%;
   font-family: $monospace;
   line-height: golden-ratio(1, 1);
 }

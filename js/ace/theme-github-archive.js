@@ -4,19 +4,12 @@ exports.isDark = false;
 exports.cssClass = "ace-github";
 exports.cssText = "\
 .ace-github .ace_gutter {\
-background: rgba(0,0,0,0.05);\
-border-right: 1px solid rgba(255,255,255,0.5);\
-border-top: 1px solid transparent;\
-color: #FFF;\
+background: #e8e8e8;\
+color: #AAA;\
 }\
 .ace-github  {\
-background: none;\
+background: #fff;\
 color: #000;\
-}\
-.ace-github .ace_content {\
-background: rgba(255,255,255,0.05);\
-border-bottom: 1px solid rgba(0,0,0,0.1);\
-border-top: 1px solid rgba(255,255,255,0.5);\
 }\
 .ace-github .ace_keyword {\
 font-weight: bold;\
@@ -63,7 +56,7 @@ font-weight: bold;\
 color: black;\
 }\
 .ace-github .ace_marker-layer .ace_active-line {\
-background: rgba(0, 0, 0, 0.1);\
+background: rgb(255, 255, 204);\
 }\
 .ace-github .ace_marker-layer .ace_selection {\
 background: rgb(181, 213, 255);\
@@ -86,7 +79,7 @@ margin: -1px 0 0 -1px;\
 border: 1px solid rgb(192, 192, 192);\
 }\
 .ace-github .ace_gutter-active-line {\
-background-color : rgba(0, 0, 0, 0.1);\
+background-color : rgba(0, 0, 0, 0.07);\
 }\
 .ace-github .ace_marker-layer .ace_selected-word {\
 background: rgb(250, 250, 255);\

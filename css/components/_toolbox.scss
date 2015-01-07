@@ -1,0 +1,48 @@
+// Toolbox
+.toolbox {
+  background: rgba(255,255,255,0.05);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  border-top: 1px solid rgba(255,255,255,0.5);
+  display: none;
+  height: auto;
+  left: 0;
+  overflow: hidden;
+  padding: 0.5em 1em;
+  position: absolute;
+  text-align: right;
+  top: 9em;
+  width: 25%;
+
+  .js & {
+    display: block;
+  }
+
+  h1 {
+    // @include font-size(17);
+    // color: rgba(0,0,0,0.2);
+    display: inline-block;
+    padding: 0 0.1em 0 0;
+    line-height: 1;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    line-height: 1;
+    margin: 0;
+    text-align: center;
+
+    a {
+      line-height: 1;
+      display: block;
+    }
+  }
+}

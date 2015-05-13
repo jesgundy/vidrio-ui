@@ -1843,8 +1843,6 @@ html {
   height: 100%; }
 
 body {
-  font-size: 14px;
-  font-size: 1.4rem;
   background: blue;
   background: url(../img/bg-1.jpg) no-repeat center center;
   background-size: cover;
@@ -1853,7 +1851,7 @@ body {
   font-family: "Source Code Pro", 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace !important;
   line-height: 1.618; }
 
-.container {
+body, .container {
   font-size: 14px;
   font-size: 1.4rem; }
 
@@ -1876,12 +1874,26 @@ h1, h2, h3, h4, h5, h6 {
   .js .js-warning {
     display: none; }
 
+body.-dragover {
+  position: relative; }
+  body.-dragover :after {
+    background: rgba(255, 255, 255, 0.2);
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%; }
+
 #editor {
   position: absolute;
   top: 9em;
   right: 0;
   bottom: 5em;
-  left: 30%; }
+  left: 100%; }
+  #editor.-reveal {
+    left: 30%; }
 
 .ace_editor {
   font-family: "Source Code Pro", 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace !important; }
@@ -1938,38 +1950,40 @@ h1, h2, h3, h4, h5, h6 {
       padding: 0.5em 1em;
       border-left: 2px solid #000; }
 
-.toolbox {
-  background: rgba(255, 255, 255, 0.05);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
+.Toolbox {
   display: none;
   height: auto;
   left: 0;
-  overflow: hidden;
-  padding: 0.5em 1em;
   position: absolute;
-  text-align: right;
   top: 9em;
   width: 25%; }
-  .js .toolbox {
+  html.js .Toolbox {
     display: block; }
-  .toolbox h1 {
+  .Toolbox-section {
+    background: rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    margin: 0 0 1em;
+    padding: 0.5em 1em;
+    text-align: right; }
+  .Toolbox h1 {
     display: inline-block;
     padding: 0 0.1em 0 0;
     line-height: 1;
     margin: 0;
     text-transform: uppercase; }
-  .toolbox ul {
+  .Toolbox ul {
     display: inline-block;
     list-style: none;
     margin: 0;
     padding: 0; }
-  .toolbox li {
+  .Toolbox li {
     display: inline-block;
     line-height: 1;
     margin: 0;
     text-align: center; }
-    .toolbox li a {
+    .Toolbox li a {
       line-height: 1;
       display: block; }
 

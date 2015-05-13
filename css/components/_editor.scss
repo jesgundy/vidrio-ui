@@ -1,4 +1,19 @@
 // Jot Editor
+body.-dragover {
+  position: relative;
+
+  :after {
+    background: rgba(255,255,255,0.2);
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+
 
 // Fullcreen Layout
 #editor {
@@ -6,7 +21,11 @@
   top: 9em;
   right: 0;
   bottom: 5em;
-  left: 30%;
+  left: 100%;
+
+  &.-reveal {
+    left: 30%;
+  }
 }
 
 
@@ -40,17 +59,21 @@
       line-height: 1;
       margin: golden-ratio(1em, 1) 0 1em;
     }
+
     h1 {
       @include font-size(30);
       font-weight: 300;
     }
+
     h2 {
       @include font-size(22);
     }
+
     h3 {
       @include font-size(16);
       text-transform: uppercase;
     }
+
     h4,
     h5,
     h6 {

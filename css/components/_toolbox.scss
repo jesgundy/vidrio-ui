@@ -1,20 +1,25 @@
 // Toolbox
-.toolbox {
-  background: rgba(255,255,255,0.05);
-  border-bottom: 1px solid rgba(0,0,0,0.1);
-  border-top: 1px solid rgba(255,255,255,0.5);
+.Toolbox {
   display: none;
   height: auto;
   left: 0;
-  overflow: hidden;
-  padding: 0.5em 1em;
   position: absolute;
-  text-align: right;
   top: 9em;
   width: 25%;
 
-  .js & {
+  html.js & {
     display: block;
+  }
+
+  // Toolbox Section
+  &-section {
+    background: rgba(255,255,255,0.05);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-top: 1px solid rgba(255,255,255,0.5);
+    overflow: hidden;
+    margin: 0 0 1em;
+    padding: 0.5em 1em;
+    text-align: right;
   }
 
   h1 {

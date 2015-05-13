@@ -8,7 +8,14 @@ require.config({
     'underscore': 'lib/underscore',
     'showdown': 'lib/showdown',
     'store': 'lib/store',
-    'zeroclipboard': 'lib/zeroclipboard'
+    'zeroclipboard': 'lib/zeroclipboard',
+    'filereader': 'lib/filereader'
+  },
+  shim: {
+    'filereader': {
+      deps: ['jquery'],
+      exports: 'FileReader'
+    },
   },
   urlArgs: window.REQUIRE_NOCACHE ? 'bust='+(new Date()).getTime() : null
 });
@@ -46,7 +53,7 @@ define(['detection'], function( detection ) {
 
   // Editor
   if ( detection.has('.jot') ) {
-    mods.push('jot/main');
+    mods.push('glass/main');
   }
 
   require(mods);

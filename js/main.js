@@ -53,7 +53,8 @@ define(['detection'], function( detection ) {
 
   // Editor
   if ( detection.has('.jot') ) {
-    mods.push('glass/main');
+    // mods.push('glass/main');
+    mods.push('jot/main');
   }
 
   require(mods);

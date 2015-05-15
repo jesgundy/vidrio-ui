@@ -1,3 +1,13 @@
+$transparentWhite: rgba(255,255,255,0.25);
+
+
+$red: #BF2A36;
+$darkBlue: #324359;
+$lightBlue: #566D8C;
+$yellow: #F2EB8C;
+$orange: #F2B47E;
+
+
 *,
 *:before,
 *:after {
@@ -7,15 +17,23 @@
 
 html {
   height: 100%;
+
+  body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
 }
 
 
+
+
 body {
-  background: blue;
-  background: url(../img/bg-1.jpg) no-repeat center center;
+  background: url(../img/cliffs.jpg) no-repeat center center;
   background-size: cover;
   color: #222;
-  height: 100%;
   font-family: $monospace;
   line-height: golden-ratio(1, 1);
 }

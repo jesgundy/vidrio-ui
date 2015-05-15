@@ -15,13 +15,13 @@ define([
 
     initialize: function() {
       // instantiate model
-      // this.model = new JotStorage();
+      this.model = new JotStorage();
 
       // Instantiate Editor View
-      // this.editor = new Editor({
-      //   el: this.$('#editor'),
-      //   model: this.model
-      // });
+      this.editor = new Editor({
+        el: this.$('#editor'),
+        model: this.model
+      });
 
       // Instantiate Editor View
       this.mode = new Toolbox({
@@ -39,22 +39,3 @@ define([
 
 });
 
-
-
-
-// define(function (require) {
-
-
-//   // Dependencies
-//   var Backbone = require('backbone'),
-//       $ = require('jquery'),
-//       _ = require('underscore');
-
-
-//   // Log Libs
-//   console.log("Backbone v"+ Backbone.VERSION);
-//   console.log("Underscore v"+ _.VERSION);
-//   console.log("jQuery v"+ $.fn.jquery);
-
-
-// });

@@ -9,20 +9,21 @@ border-right: 1px solid rgba(255,255,255,0.5);\
 border-top: 1px solid transparent;\
 color: #FFF;\
 }\
-.ace-github  {\
+.ace_scroller {\
+background: none;\
+}\
+.ace-github {\
 background: none;\
 color: #000;\
 }\
 .ace-github .ace_content {\
-background: rgba(255,255,255,0.05);\
-border-bottom: 1px solid rgba(0,0,0,0.1);\
-border-top: 1px solid rgba(255,255,255,0.5);\
+background: none;\
 }\
 .ace-github .ace_keyword {\
 font-weight: bold;\
 }\
 .ace-github .ace_string {\
-color: #D14;\
+color: #BF2A36;\
 }\
 .ace-github .ace_variable.ace_class {\
 color: teal;\
@@ -31,17 +32,17 @@ color: teal;\
 color: #099;\
 }\
 .ace-github .ace_constant.ace_buildin {\
-color: #0086B3;\
+color: #566D8C;\
 }\
 .ace-github .ace_support.ace_function {\
-color: #0086B3;\
+color: #566D8C;\
 }\
 .ace-github .ace_comment {\
 color: #998;\
 font-style: italic;\
 }\
 .ace-github .ace_variable.ace_language  {\
-color: #0086B3;\
+color: #566D8C;\
 }\
 .ace-github .ace_paren {\
 font-weight: bold;\
@@ -97,7 +98,8 @@ width: 1px;\
 background: #e8e8e8;\
 }\
 .ace-github .ace_indent-guide {\
-background: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bLly//BwAmVgd1/w11/gAAAABJRU5ErkJggg==\") right repeat-y;\
+/*background: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bLly//BwAmVgd1/w11/gAAAABJRU5ErkJggg==\") right repeat-y;*/\
+border-right: 1px solid #fff;\
 }";
 
     var dom = require("../lib/dom");

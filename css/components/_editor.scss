@@ -17,15 +17,12 @@ body.-dragover {
 
 // Fullcreen Layout
 #editor {
-  position: absolute;
-  top: 9em;
-  right: 0;
+  @include glass;
   bottom: 5em;
-  left: 100%;
-
-  &.-reveal {
-    left: 30%;
-  }
+  left: 0;
+  position: absolute;
+  right: 10%;
+  top: 9em;
 }
 
 

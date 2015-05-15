@@ -48,9 +48,7 @@ define([
       this.editor.setTheme("ace/theme/github");
       this.editor.setFontSize(14);
       this.editor.setShowPrintMargin(false);
-
       this.buildCustomCommands();
-
       this.editor.setSession( this.session );
     },
 

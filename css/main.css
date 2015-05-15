@@ -380,9 +380,9 @@ td, th {
     left: -1.85714em; }
 
 .fa-border {
-  padding: 0.2em 0.25em 0.15em;
-  border: solid 0.08em #eee;
-  border-radius: 0.1em; }
+  padding: .2em .25em .15em;
+  border: solid .08em #eee;
+  border-radius: .1em; }
 
 .pull-right {
   float: right; }
@@ -391,9 +391,9 @@ td, th {
   float: left; }
 
 .fa.pull-left {
-  margin-right: 0.3em; }
+  margin-right: .3em; }
 .fa.pull-right {
-  margin-left: 0.3em; }
+  margin-left: .3em; }
 
 .fa-spin {
   -webkit-animation: spin 2s infinite linear;
@@ -1841,13 +1841,17 @@ html {
 
 html {
   height: 100%; }
+  html body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
 
 body {
-  background: blue;
-  background: url(../img/bg-1.jpg) no-repeat center center;
+  background: url(../img/cliffs.jpg) no-repeat center center;
   background-size: cover;
   color: #222;
-  height: 100%;
   font-family: "Source Code Pro", 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace !important;
   line-height: 1.618; }
 
@@ -1887,13 +1891,17 @@ body.-dragover {
     width: 100%; }
 
 #editor {
-  position: absolute;
-  top: 9em;
-  right: 0;
+  background: rgba(255, 255, 255, 0.25);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0 3px 3px 0;
+  position: relative;
   bottom: 5em;
-  left: 100%; }
-  #editor.-reveal {
-    left: 30%; }
+  left: 0;
+  position: absolute;
+  right: 10%;
+  top: 9em; }
 
 .ace_editor {
   font-family: "Source Code Pro", 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace !important; }
@@ -1951,41 +1959,78 @@ body.-dragover {
       border-left: 2px solid #000; }
 
 .Toolbox {
+  background: rgba(255, 255, 255, 0.25);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0 3px 3px 0;
+  position: relative;
   display: none;
   height: auto;
   left: 0;
   position: absolute;
-  top: 9em;
-  width: 25%; }
+  top: 5em;
+  right: 10%; }
+  .Toolbox:after {
+    content: "";
+    display: table;
+    clear: both; }
   html.js .Toolbox {
     display: block; }
   .Toolbox-section {
-    background: rgba(255, 255, 255, 0.05);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    float: right;
+    margin: 0;
     overflow: hidden;
-    margin: 0 0 1em;
-    padding: 0.5em 1em;
-    text-align: right; }
+    padding: 0; }
+    .Toolbox-section:after {
+      content: "";
+      display: table;
+      clear: both; }
   .Toolbox h1 {
     display: inline-block;
-    padding: 0 0.1em 0 0;
+    float: left;
     line-height: 1;
     margin: 0;
-    text-transform: uppercase; }
+    padding: 0.8em 0.5em 0 0;
+    text-transform: uppercase;
+    vertical-align: middle; }
   .Toolbox ul {
+    font-size: 18px;
+    font-size: 1.8rem;
     display: inline-block;
+    float: left;
     list-style: none;
-    margin: 0;
-    padding: 0; }
-  .Toolbox li {
-    display: inline-block;
     line-height: 1;
+    margin: 0 0 0 0.4em;
+    padding: 0;
+    position: relative; }
+    .Toolbox ul:after {
+      content: "";
+      display: table;
+      clear: both; }
+  .Toolbox li {
+    display: block;
+    float: left;
     margin: 0;
+    padding: 0;
     text-align: center; }
     .Toolbox li a {
-      line-height: 1;
-      display: block; }
+      border-left: 1px solid rgba(255, 255, 255, 0.5);
+      display: block;
+      margin: 0;
+      padding: 0.5em 0.6em 0.4em;
+      position: relative; }
+      .Toolbox li a:after {
+        border-left: 1px solid rgba(0, 0, 0, 0.1);
+        content: "";
+        display: block;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0; }
+      .Toolbox li a:hover {
+        background: rgba(0, 0, 0, 0.05);
+        color: #fff; }
 
 @media print {
   * {
@@ -1994,41 +2039,31 @@ body.-dragover {
     /* Black prints faster: h5bp.com/s */
     box-shadow: none !important;
     text-shadow: none !important; }
-
   a, a:visited {
     text-decoration: underline; }
-
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
-
   thead {
     display: table-header-group;
     /* h5bp.com/t */ }
-
   tr, img {
     page-break-inside: avoid; }
-
   img {
     max-width: 100% !important; }
-
   @page {
     margin: 0.5cm; }
 
   p, h2, h3 {
     orphans: 3;
     widows: 3; }
-
   h2, h3 {
     page-break-after: avoid; }
-
   .toolbox, #editor {
     display: none; }
-
   .export-container {
     border: none;
     display: block;
     padding: 1em; }
     .export-container pre {
-      border: none; }
- }
+      border: none; } }

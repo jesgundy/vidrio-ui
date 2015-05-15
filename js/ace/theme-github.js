@@ -67,7 +67,7 @@ color: black;\
 background: rgba(0, 0, 0, 0.1);\
 }\
 .ace-github .ace_marker-layer .ace_selection {\
-background: rgb(181, 213, 255);\
+background: rgba(0, 0, 0, 0.1);\
 }\
 .ace-github.ace_multiselect .ace_selection.ace_start {\
 box-shadow: 0 0 3px 0px white;\

@@ -64,6 +64,6 @@ define(['detection', 'jquery'], function( detection, $ ) {
       .error(function() {
         console.log("error loading image");
       })
-      .attr("src", '/img/cliffs.jpg');
+      .attr("src", '/img/clouds.jpg');
   }
 });

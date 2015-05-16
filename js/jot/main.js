@@ -28,6 +28,9 @@ define([
         el: this.$('.toolbox'),
         model: this.model
       });
+
+      // Fade in stuff.
+      $('.container').addClass('loaded');
     }
 
   });

@@ -17,6 +17,7 @@ require.config({
       exports: 'FileReader'
     },
   },
+  waitSeconds: 30, // longer timeout for things to load
   urlArgs: window.REQUIRE_NOCACHE ? 'bust='+(new Date()).getTime() : null
 });
 
@@ -48,14 +49,21 @@ define('detection', function() {
 
 
 // Main application bootstrapper
-define(['detection'], function( detection ) {
+define(['detection', 'jquery'], function( detection, $ ) {
   var mods = [];
 
   // Editor
   if ( detection.has('.jot') ) {
-    // mods.push('glass/main');
-    mods.push('jot/main');
+    // Wait for BG image to load
+    $("<img/>")
+      .load(function() {
+        console.log("image loaded correctly");
+        mods.push('jot/main');
+        require(mods);
+      })
+      .error(function() {
+        console.log("error loading image");
+      })
+      .attr("src", '/img/cliffs.jpg');
   }
-
-  require(mods);
 });

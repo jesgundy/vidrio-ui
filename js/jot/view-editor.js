@@ -29,14 +29,18 @@ define([
     // build the session
     buildSession: function() {
       var self = this;
-      this.session = ace.createEditSession( this.model.get("document") ); // passed value of editor
+
+      // Custom vars
+      this.session = ace.createEditSession( this.model.get("document") );
       this.session.setMode( "ace/mode/" + this.model.get("mode") );
+
+      // Defaults
       this.session.setTabSize(2);
       this.session.setUseSoftTabs(true);
       this.session.setUseWrapMode(true);
-      // move cursor to end of file
       this.session.selection.moveCursorFileEnd();
-      // change event
+
+      // Event Listener
       this.session.on("change", function() {
         self.saveDocument();
       });

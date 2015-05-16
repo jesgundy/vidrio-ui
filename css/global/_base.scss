@@ -28,6 +28,43 @@ html {
 }
 
 
+.loadingScreen {
+  @include transition(opacity 1s ease-in-out 1s);
+  @include font-size(20);
+  background: #000;
+  color: #ccc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+
+  &-spinner {
+    @include transition(opacity 1s ease-in-out);
+    letter-spacing: 0.1em;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+
+    i {
+      position: relative;
+      left: 0.1em;
+    }
+  }
+
+  body.loaded & {
+    opacity: 0;
+
+    &-spinner {
+      opacity: 0;
+    }
+  }
+}
+
+
 
 
 body {
@@ -44,8 +81,9 @@ body,
   @include font-size(14);
 }
 
+
 .container {
-  @include transition(left 1s $ease-out-expo);
+  @include transition(left 1s $ease-out-expo 2s);
   position: absolute;
   top: 0;
   left: -100%;
@@ -53,7 +91,7 @@ body,
   right: 0;
   width: 100%;
 
-  &.loaded {
+  body.loaded & {
     left: 0;
   }
 }

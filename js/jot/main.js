@@ -30,7 +30,7 @@ define([
       });
 
       // Fade in stuff.
-      $('.container').addClass('loaded');
+      $('body').addClass('loaded');
     }
 
   });

@@ -1848,6 +1848,38 @@ html {
     right: 0;
     bottom: 0; }
 
+.loadingScreen {
+  -webkit-transition: opacity 1s ease-in-out 1s;
+  -moz-transition: opacity 1s ease-in-out 1s;
+  transition: opacity 1s ease-in-out 1s;
+  font-size: 20px;
+  font-size: 2rem;
+  background: #000;
+  color: #ccc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle; }
+  .loadingScreen-spinner {
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    letter-spacing: 0.1em;
+    position: absolute;
+    top: 50%;
+    width: 100%; }
+    .loadingScreen-spinner i {
+      position: relative;
+      left: 0.1em; }
+  body.loaded .loadingScreen {
+    opacity: 0; }
+    body.loaded .loadingScreen-spinner {
+      opacity: 0; }
+
 body {
   background: url(../img/cliffs.jpg) no-repeat center center;
   background-size: cover;
@@ -1860,16 +1892,16 @@ body, .container {
   font-size: 1.4rem; }
 
 .container {
-  -webkit-transition: left 1s cubic-bezier(0.19, 1, 0.22, 1);
-  -moz-transition: left 1s cubic-bezier(0.19, 1, 0.22, 1);
-  transition: left 1s cubic-bezier(0.19, 1, 0.22, 1);
+  -webkit-transition: left 1s cubic-bezier(0.19, 1, 0.22, 1) 2s;
+  -moz-transition: left 1s cubic-bezier(0.19, 1, 0.22, 1) 2s;
+  transition: left 1s cubic-bezier(0.19, 1, 0.22, 1) 2s;
   position: absolute;
   top: 0;
   left: -100%;
   bottom: 0;
   right: 0;
   width: 100%; }
-  .container.loaded {
+  body.loaded .container {
     left: 0; }
 
 a {

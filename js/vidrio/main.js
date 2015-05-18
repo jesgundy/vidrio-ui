@@ -37,7 +37,7 @@ define([
 
 
   // Instantiate the app
-  var jot = new Jot({el: ".jot"});
+  var jot = new Jot({el: ".vidrio"});
 
 
 });

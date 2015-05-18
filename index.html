@@ -6,13 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Vidrio</title>
 
-  <!-- Google Font -->
   <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
-
-  <!-- Styless -->
   <link rel="stylesheet" href="css/main.css" />
 
-  <!-- Test JS Presence -->
   <script type="text/javascript">
     var docElement = document.documentElement;
     docElement.className = docElement.className.replace(/(^|\s)no-js(\s|$)/, '$1$2') + ' js ';
@@ -20,7 +16,8 @@
 </head>
 <body>
 
-  <!-- Loading screen -->
+
+
   <div class="loadingScreen">
     <div class="loadingScreen-spinner">
       <i class="fa fa-lg fa-cog fa-spin"></i> Vidrio
@@ -28,13 +25,12 @@
   </div>
 
 
-  <div class="container jot">
 
-    <!-- Toolbox -->
+  <div class="container vidrio">
     <div class="Toolbox">
-
       <div class="Toolbox-section">
         <h1>Vidrio</h1>
+
         <ul>
           <li>
             <a href="https://github.com/jesgundy/jot">
@@ -42,30 +38,23 @@
               <span class="visuallyhidden">Information</span>
             </a>
           </li>
-          <!-- <li>
-            <a href="https://github.com/jesgundy/jot">
-              <i class="fa fa-cog fa-fw"></i>
-              <span class="visuallyhidden">Settings</span>
-            </a>
-          </li> -->
         </ul>
       </div>
-
     </div>
 
-    <!-- Editor -->
     <div id="editor"></div>
 
-    <!-- JS Warning -->
     <div class="js-warning">
-      <p>Jot require JavaScript to run. Sorry.</p>
+      <p>Vidrio require JavaScript to run. Sorry.</p>
     </div>
-
   </div>
 
-  <!-- Require.js -->
+
+
   <script>REQUIRE_NOCACHE = true;</script>
   <script data-main="js/main.js" src="js/lib/require.js"></script>
+
+
 
 </body>
 </html>

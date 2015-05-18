@@ -26,6 +26,7 @@
     display: inline-block;
     float: left;
     line-height: 1;
+    letter-spacing: 0.1em;
     margin: 0;
     padding: 0.8em 0.5em 0 0;
     text-transform: uppercase;
@@ -66,6 +67,10 @@
         left: 0;
         position: absolute;
         top: 0;
+      }
+
+      &.jot-mode {
+        @include font-size(14);
       }
 
       &:hover {

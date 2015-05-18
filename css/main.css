@@ -2035,6 +2035,7 @@ body.-dragover {
     display: inline-block;
     float: left;
     line-height: 1;
+    letter-spacing: 0.1em;
     margin: 0;
     padding: 0.8em 0.5em 0 0;
     text-transform: uppercase;
@@ -2073,6 +2074,9 @@ body.-dragover {
         left: 0;
         position: absolute;
         top: 0; }
+      .Toolbox li a.jot-mode {
+        font-size: 14px;
+        font-size: 1.4rem; }
       .Toolbox li a:hover {
         background: rgba(0, 0, 0, 0.05);
         color: #fff; }

@@ -4,5 +4,4 @@ Vidrio is a browser-based markdown editor, powered by [Cloud9 Ace Code Editor](h
 
 Background imagery courtesy of [unsplash.com](https://unsplash.com/).
 
-The MIT License (MIT)
-Copyright (c) 2015 Jes Gundy
+> The MIT License | Copyright 2015 Jes Gundy

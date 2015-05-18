@@ -16,9 +16,7 @@ require.config({
 // Main application bootstrapper
 define(['jquery'], function( $ ) {
   // Wait for BG image to load
-  $("<img/>")
-    .load(function() {
-      require(['vidrio/main']);
-    })
-    .attr("src", '/img/clouds.jpg');
+  $(".imageLoader").load(function() {
+    require(['vidrio/main']); // start vidrio
+  }).attr('src', '/img/clouds.jpg');
 });

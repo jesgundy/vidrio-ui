@@ -11,16 +11,15 @@
 body {
   font-size: @font-size;
   color: @text-color;
-  // background-color: @app-background-color;
-  background: url('atom://vidrio-ui/aleks-dahlberg-258314.jpg') center center no-repeat;
+  background: url('atom://vidrio-ui/aleks-dahlberg-258314.jpg') center center no-repeat #000;
   background-size: cover;
   padding: 5rem;
 }
 
-atom-pane {
-  border-right: 1px solid @base-border-color;
+atom-workspace {
+    background: none;
+}
 
-  &:last-child {
-    border-right: none;
-  }
+atom-pane {
+    .glass();
 }

@@ -1,23 +1,15 @@
 {
-  "name": "Bedrock",
-  "version": "0.3.0",
-  "description": "Bedrock - Gulp",
-  "main": "index.html",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:jesgundy/bedrock.git"
-  },
-  "author": "Jes Gundy",
+  "name": "ui-theme-template",
+  "theme": "ui",
+  "version": "0.0.0",
+  "description": "A short description of your UI theme",
+  "keywords": [
+    "ui",
+    "theme"
+  ],
+  "repository": "https://github.com/atom-community/ui-theme-template",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jesgundy/bedrock/issues"
-  },
-  "homepage": "https://github.com/jesgundy/bedrock",
-  "devDependencies": {
-    "gulp": "^3.8.10",
-    "gulp-jshint": "^1.9.0",
-    "gulp-sass": "^1.2.2",
-    "gulp-webserver": "^0.8.6",
-    "jshint-stylish": "^1.0.0"
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
   }
 }

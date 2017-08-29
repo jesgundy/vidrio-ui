@@ -11,11 +11,15 @@
 body {
   font-size: @font-size;
   color: @text-color;
-  background-color: @app-background-color;
+  // background-color: @app-background-color;
+  background: url('atom://vidrio-ui/aleks-dahlberg-258314.jpg') center center no-repeat;
+  background-size: cover;
+  padding: 5rem;
 }
 
 atom-pane {
   border-right: 1px solid @base-border-color;
+
   &:last-child {
     border-right: none;
   }
